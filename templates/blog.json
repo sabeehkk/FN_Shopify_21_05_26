@@ -1,0 +1,41 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "template--blog",
+      "settings": {}
+    },
+    "featured_collection_LCrq3n": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "",
+        "description": "",
+        "collection": "featured-collection",
+        "override_button_colors": false,
+        "button_background_color": "#E68819",
+        "button_text_color": "#ffffff",
+        "show_view_all": false,
+        "buttons_style": "filled",
+        "section_padding_top": 30,
+        "section_padding_bottom": 30,
+        "layout_style": "grid",
+        "products_to_show": 20,
+        "grid-desktop": 5,
+        "grid-mobile": "2",
+        "colors": "white"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "featured_collection_LCrq3n"
+  ]
+}

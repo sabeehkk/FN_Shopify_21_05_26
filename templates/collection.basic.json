@@ -1,0 +1,221 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "wrapper": "div.collection-wrapper.wrapper",
+  "sections": {
+    "gallery_slideshow_bj8mBC": {
+      "type": "gallery-slideshow",
+      "blocks": {
+        "image_UrxYdG": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/FN1-P1_cce79f52-6a35-4318-959f-bf529ae7274d.png",
+            "link": "shopify://collections/muscle-tank",
+            "subheading": "<strong>TANKS</strong>",
+            "title": "",
+            "button_label": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#242424",
+            "overlay_opacity": 0
+          }
+        },
+        "image_HAErjB": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/FN3-P2.png",
+            "link": "shopify://collections/t-shirt",
+            "subheading": "<strong>T-SHIRT</strong>",
+            "title": "",
+            "button_label": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#242424",
+            "overlay_opacity": 0
+          }
+        },
+        "image_jnHnac": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/FN5-P2.png",
+            "link": "shopify://collections/sweatshirt",
+            "subheading": "<strong>SWEATSHIRT</strong>",
+            "title": "",
+            "button_label": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#242424",
+            "overlay_opacity": 0
+          }
+        },
+        "image_c84irr": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/FN4-P1.png",
+            "link": "shopify://collections/hoodie",
+            "subheading": "<strong>HOODIE</strong>",
+            "title": "",
+            "button_label": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#242424",
+            "overlay_opacity": 0
+          }
+        },
+        "image_48E7Xm": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/FN8-P2.png",
+            "link": "shopify://collections/shorts",
+            "subheading": "<strong>SHORTS</strong>",
+            "title": "",
+            "button_label": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#242424",
+            "overlay_opacity": 0
+          }
+        },
+        "image_jYbhdK": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/FN6-P1_ebdf1183-9208-4d1f-b544-b807262c526f.png",
+            "link": "shopify://collections/joggers",
+            "subheading": "<strong>JOGGER</strong>",
+            "title": "",
+            "button_label": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#242424",
+            "overlay_opacity": 0
+          }
+        },
+        "image_JGEz4g": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/bag.jpg",
+            "link": "shopify://collections/accessories",
+            "subheading": "<strong>ACCESSORIES</strong>",
+            "title": "",
+            "button_label": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#242424",
+            "overlay_opacity": 0
+          }
+        },
+        "image_RgqQNw": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/slide.jpg",
+            "link": "shopify://collections/slider",
+            "subheading": "<strong>SLIDES</strong>",
+            "title": "",
+            "button_label": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#242424",
+            "overlay_opacity": 0
+          }
+        },
+        "image_9taiU7": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "link": "",
+            "subheading": "Subheading",
+            "title": "Heading",
+            "button_label": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#242424",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "image_UrxYdG",
+        "image_HAErjB",
+        "image_jnHnac",
+        "image_c84irr",
+        "image_48E7Xm",
+        "image_jYbhdK",
+        "image_JGEz4g",
+        "image_RgqQNw",
+        "image_9taiU7"
+      ],
+      "custom_css": [
+        "@media (max-width: 767px) {.content-grid-item__subheading {font-size: 7.5px !important; }}"
+      ],
+      "name": "t:sections.gallery-slideshow.name",
+      "settings": {
+        "title": "",
+        "description": "",
+        "image_shape": "circle",
+        "layout_style_desktop": "slider",
+        "images_per_row_desktop": 7,
+        "text_position_desktop": "below",
+        "show_on_hover": true,
+        "layout_style_mobile": "slider",
+        "images_per_row_mobile": "5",
+        "text_position_mobile": "below",
+        "buttons_style": "filled",
+        "override_button_colors": false,
+        "button_background_color": "#e68819",
+        "button_text_color": "#ffffff",
+        "hover_navigation_desktop": "left-and-right",
+        "section_width": "content",
+        "remove_spacing": false,
+        "section_padding_top": 30,
+        "section_padding_bottom": 0,
+        "colors": "white"
+      }
+    },
+    "collection-header-basic": {
+      "type": "collection-header",
+      "custom_css": [
+        "@media (max-width: 480px) {.collection-header__text-item {font-size: 35px; }}"
+      ],
+      "settings": {
+        "show_breadcrumbs": false,
+        "show_title": true,
+        "show_description": true,
+        "show_image_desktop": false,
+        "min_height_desktop": "original",
+        "content_position": "center",
+        "caption_width_desktop": 50,
+        "show_image_mobile": false,
+        "min_height_mobile": "original",
+        "content_position_mobile": "center",
+        "enable_parallax": false,
+        "enable_fade": false,
+        "section_width": "full",
+        "section_margin_top": 0,
+        "section_margin_bottom": 0,
+        "colors": "white",
+        "caption_bg_color": "rgba(0,0,0,0)",
+        "image_overlay_color": "#ffffff",
+        "image_overlay_opacity": 0
+      }
+    },
+    "product-grid": {
+      "type": "template--collection",
+      "settings": {
+        "products-per-page": 4,
+        "desktop-products-per-row": 4,
+        "mobile-products-per-row": "2",
+        "pagination_options": "pagination_infinite_scrolling",
+        "desktop_position": "sidebar",
+        "enable_collection_title": false,
+        "enable_collection_description": false,
+        "enable_filtering": true,
+        "show_swatch_filter_labels": true,
+        "enable_sorting": true
+      }
+    }
+  },
+  "order": [
+    "gallery_slideshow_bj8mBC",
+    "collection-header-basic",
+    "product-grid"
+  ]
+}

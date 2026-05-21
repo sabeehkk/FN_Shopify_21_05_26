@@ -1,0 +1,572 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "product-form": {
+      "type": "template--product",
+      "blocks": {
+        "title": {
+          "type": "title",
+          "settings": {
+            "title_font": "h3",
+            "margin_bottom": 5
+          }
+        },
+        "sku_d9aBPL": {
+          "type": "sku",
+          "settings": {
+            "margin_bottom": 0
+          }
+        },
+        "barcode_QT4dPm": {
+          "type": "barcode",
+          "settings": {
+            "margin_bottom": 30
+          }
+        },
+        "product_rating_rXh67U": {
+          "type": "product-rating",
+          "disabled": true,
+          "settings": {
+            "rating-label": "Rating",
+            "rating": "4",
+            "rating-icon-full": "shopify://shop_images/icons8-star-50.png",
+            "rating-icon-empty": "shopify://shop_images/icons8-star-50_1.png",
+            "rating-max": 5,
+            "margin_bottom": 30
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+            "price_font": "h3",
+            "shipping_policy": false,
+            "tax_included": false,
+            "margin_bottom": 10
+          }
+        },
+        "bundler_custom_bundle_yhxctB": {
+          "type": "shopify://apps/bundler/blocks/custom-bundle/7a6ae1b8-3b16-449b-8429-8bb89a62c664",
+          "disabled": true,
+          "settings": {
+            "shortcode": ""
+          }
+        },
+        "bundler_bundler_target_element_XfYqwa": {
+          "type": "shopify://apps/bundler/blocks/bundler-target-element/7a6ae1b8-3b16-449b-8429-8bb89a62c664",
+          "disabled": true,
+          "settings": {}
+        },
+        "bundler_volume_target_element_3rxpba": {
+          "type": "shopify://apps/bundler/blocks/volume-target-element/7a6ae1b8-3b16-449b-8429-8bb89a62c664",
+          "settings": {}
+        },
+        "f0f0e917-92a5-4957-a68e-2d0bb38d7819": {
+          "type": "separator",
+          "settings": {
+            "margin_bottom": 15
+          }
+        },
+        "dealeasy_app_block_RyFKP3": {
+          "type": "shopify://apps/dealeasy/blocks/app-block/e47a8634-0496-480d-9e46-6f7fafd34b30",
+          "settings": {
+            "lb-product-handle": "",
+            "lb-product-id": ""
+          }
+        },
+        "text_field_cxPY96": {
+          "type": "text_field",
+          "disabled": true,
+          "settings": {
+            "title": "PRODUCT DETAILS",
+            "text_field_hint": "<strong>Lorem Ipsum</strong> is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+            "text_field_required": false,
+            "text_field_size": "single",
+            "text_field_character_limit": "",
+            "margin_bottom": 0
+          }
+        },
+        "text_EGHDyd": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "title": "<p><strong>Lorem Ipsum</strong> is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.<br/><br/></p>",
+            "margin_bottom": 10,
+            "text_color": "#242424"
+          }
+        },
+        "options": {
+          "type": "options",
+          "settings": {
+            "variant_style": "swatches",
+            "hide_out_of_stock_variants": false,
+            "thumbnail_changes_variant": false,
+            "size_guide_label": "Size guide",
+            "size_guide_page": "tank-fn2",
+            "size_option_name": "Size",
+            "margin_bottom": 30
+          }
+        },
+        "quantity_e6k6nw": {
+          "type": "quantity",
+          "settings": {
+            "margin_bottom": 30
+          }
+        },
+        "dealeasy_mm_related_bundles_J8bAAB": {
+          "type": "shopify://apps/dealeasy/blocks/mm-related-bundles/e47a8634-0496-480d-9e46-6f7fafd34b30",
+          "disabled": true,
+          "settings": {}
+        },
+        "dealeasy_vd_cards_nzGYQt": {
+          "type": "shopify://apps/dealeasy/blocks/vd-cards/e47a8634-0496-480d-9e46-6f7fafd34b30",
+          "disabled": true,
+          "settings": {
+            "lb-product-handle": "",
+            "lb-product-id": ""
+          }
+        },
+        "dealeasy_bogo_banner_rdxNEw": {
+          "type": "shopify://apps/dealeasy/blocks/bogo-banner/e47a8634-0496-480d-9e46-6f7fafd34b30",
+          "disabled": true,
+          "settings": {
+            "lb-product-handle": "",
+            "lb-product-id": ""
+          }
+        },
+        "dealeasy_app_block_PcGMnx": {
+          "type": "shopify://apps/dealeasy/blocks/app-block/e47a8634-0496-480d-9e46-6f7fafd34b30",
+          "disabled": true,
+          "settings": {
+            "lb-product-handle": "",
+            "lb-product-id": ""
+          }
+        },
+        "dealeasy_mm_bundle_builder_iAnHDp": {
+          "type": "shopify://apps/dealeasy/blocks/mm-bundle-builder/e47a8634-0496-480d-9e46-6f7fafd34b30",
+          "settings": {
+            "lb-product-handle": "",
+            "lb-product-id": ""
+          }
+        },
+        "dealeasy_cvg_progress_bar_D8GaBT": {
+          "type": "shopify://apps/dealeasy/blocks/cvg-progress-bar/e47a8634-0496-480d-9e46-6f7fafd34b30",
+          "settings": {}
+        },
+        "text_79J6Xe": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "title": "<p><strong>Lorem Ipsum</strong> is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.<br/><br/></p>",
+            "margin_bottom": 30,
+            "text_color": "#242424"
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_smart_checkout": false,
+            "enable_gift_card_recipient_form": true,
+            "margin_bottom": 30,
+            "override_button_colors": true,
+            "button_background_color": "#5b0302",
+            "button_text_color": "#ffffff"
+          }
+        },
+        "dealeasy_mm_bundle_builder_ECQpQT": {
+          "type": "shopify://apps/dealeasy/blocks/mm-bundle-builder/e47a8634-0496-480d-9e46-6f7fafd34b30",
+          "settings": {
+            "lb-product-handle": "",
+            "lb-product-id": ""
+          }
+        },
+        "text_6B7r99": {
+          "type": "text",
+          "settings": {
+            "title": "<p>Easy 7 days returns and exchanges</p>",
+            "margin_bottom": 10,
+            "text_color": "#242424"
+          }
+        },
+        "collapsible_tab_7drhRY": {
+          "type": "collapsible-tab",
+          "disabled": true,
+          "settings": {
+            "icon": "none",
+            "heading": "MATERIAL & CARE",
+            "open_close_icon": "plus_minus",
+            "text": "<p>● 70 % cotton, 30% polyster<br/>●  Lay flat to dry<br/>●  Machine wash cold delicate cycle</p>",
+            "page": "",
+            "open_by_default": true,
+            "margin_bottom": 0
+          }
+        },
+        "collapsible_tab_3WpXAN": {
+          "type": "collapsible-tab",
+          "settings": {
+            "icon": "none",
+            "heading": "Product Details :",
+            "open_close_icon": "plus_minus",
+            "text": "<p><strong>Fabric : </strong>100% Cotton<br/><strong>Fit : </strong>Oversized<br/><strong>Finish : </strong>Slightly Washed</p>",
+            "page": "",
+            "open_by_default": true,
+            "margin_bottom": 0
+          }
+        },
+        "collapsible_tab_8eV6NR": {
+          "type": "collapsible-tab",
+          "disabled": true,
+          "settings": {
+            "icon": "none",
+            "heading": "FABRIC WEIGHT",
+            "open_close_icon": "plus_minus",
+            "text": "<p>210 GSM</p>",
+            "page": "",
+            "open_by_default": true,
+            "margin_bottom": 0
+          }
+        },
+        "collapsible_tab_JeqWkh": {
+          "type": "collapsible-tab",
+          "disabled": true,
+          "settings": {
+            "icon": "none",
+            "heading": "STYLE & FIT",
+            "open_close_icon": "plus_minus",
+            "text": "<p>Oversized</p>",
+            "page": "",
+            "open_by_default": true,
+            "margin_bottom": 0
+          }
+        },
+        "text_pEPCxA": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "title": "<p><strong>FABRIC WEIGHT : </strong>210 GSM</p>",
+            "margin_bottom": 10,
+            "text_color": "#242424"
+          }
+        },
+        "text_pNRRDc": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "title": "<p><strong>STYLE & FIT :</strong> Loose</p>",
+            "margin_bottom": 10,
+            "text_color": "#242424"
+          }
+        },
+        "text_QaGte4": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "title": "<p><strong>PRODUCT FEATURES : </strong>Introducing the <strong>The Boys Tees</strong>– where streetwear meets your favorite anti-heroes. Made for the real fans, each tee features one of five exclusive character prints from <em>The Boys</em>, bringing gritty, unapologetic energy straight to your fit. Crafted from a soft 70/30 cotton-poly blend with a solid 210 GSM weight, it’s got that perfect relaxed fit you’ll want to live in.</p>",
+            "margin_bottom": 30,
+            "text_color": "#242424"
+          }
+        },
+        "text_hYapDg": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "title": "<p><strong>MODEL: </strong>The model in the first photo is wearing a size Large. Weight: 185lb Height: 5'11.</p>",
+            "margin_bottom": 10,
+            "text_color": "#242424"
+          }
+        },
+        "collapsible_tab_nwaVED": {
+          "type": "collapsible-tab",
+          "disabled": true,
+          "settings": {
+            "icon": "none",
+            "heading": "PRODUCT FEATURES",
+            "open_close_icon": "plus_minus",
+            "text": "<p>Introducing the <strong>The Boys Tees</strong>– where streetwear meets your favorite anti-heroes. Made for the real fans, each tee features one of five exclusive character prints from <em>The Boys</em>, bringing gritty, unapologetic energy straight to your fit. Crafted from a soft 70/30 cotton-poly blend with a solid 210 GSM weight, it’s got that perfect relaxed fit you’ll want to live in</p>",
+            "page": "",
+            "open_by_default": false,
+            "margin_bottom": 0
+          }
+        },
+        "collapsible_tab_iR44aj": {
+          "type": "collapsible-tab",
+          "disabled": true,
+          "settings": {
+            "icon": "none",
+            "heading": "SIZE & FIT",
+            "open_close_icon": "plus_minus",
+            "text": "<p><br/><br/></p>",
+            "page": "size-chart",
+            "open_by_default": false,
+            "margin_bottom": 0
+          }
+        },
+        "collapsible_tab_8Dp7gt": {
+          "type": "collapsible-tab",
+          "disabled": true,
+          "settings": {
+            "icon": "none",
+            "heading": "FABRIC & CARE",
+            "open_close_icon": "plus_minus",
+            "text": "<p>● 88% Polyester, 12% Spandex<br/>● Lay flat to dry<br/>● Machine wash cold delicate cycle<br/><br/></p>",
+            "page": "",
+            "open_by_default": false,
+            "margin_bottom": 0
+          }
+        },
+        "collapsible_tab_aCLXBw": {
+          "type": "collapsible-tab",
+          "disabled": true,
+          "settings": {
+            "icon": "none",
+            "heading": "FIT",
+            "open_close_icon": "plus_minus",
+            "text": "<p>The Ultra Block Black Leggings are designed for fitness enthusiasts who value comfort and functionality. Crafted with our premium Cloud fabric, these leggings are moisture-wicking, breathable, and quick-drying to keep you cool and fresh during workouts or daily activities.<br/><br/>Featuring a regular waist and ankle-length design, these leggings ensure a snug yet flexible fit. A convenient zipper pocket at the back waistband provides secure storage for small essentials like keys or cash, making them perfect for fitness routines and outdoor adventures.<br/><br/>Built with chafe-free seams and a heat-sealed label, these leggings prioritize comfort, eliminating distractions so you can focus on your goals. Whether you're heading to the gym, practicing yoga, or running errands, these versatile black leggings will be your go-to choice.<br/><br/>Product Features:<br/><br/>Cloud Fabric: Soft, durable, and breathable material<br/>Regular Waist & Ankle Length: Designed for a flattering fit<br/>Back Zipper Pocket: Securely stores essentials like keys and cash<br/>Chafe-Free Seams: Ensures all-day comfort<br/>Heat-Sealed Label: No irritating tags to bother you<br/><br/></p>",
+            "page": "",
+            "open_by_default": false,
+            "margin_bottom": 0
+          }
+        },
+        "collapsible_tab_ym7AgL": {
+          "type": "collapsible-tab",
+          "disabled": true,
+          "settings": {
+            "icon": "none",
+            "heading": "FABRIC WEIGHT",
+            "open_close_icon": "plus_minus",
+            "text": "<p>● 4-way Stretch<br/>● Sweat Wicking<br/>● Quick Dry<br/>● Anti-Odour</p>",
+            "page": "",
+            "open_by_default": false,
+            "margin_bottom": 0
+          }
+        },
+        "collapsible_tab_9XhbfC": {
+          "type": "collapsible-tab",
+          "disabled": true,
+          "settings": {
+            "icon": "none",
+            "heading": "DESIGN",
+            "open_close_icon": "plus_minus",
+            "text": "<p>Share some information about your product</p>",
+            "page": "",
+            "open_by_default": false,
+            "margin_bottom": 30
+          }
+        },
+        "text_rNWRr7": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "title": "<p><strong>SELLER DETAILS</strong></p><p>Sold and Fulfilled by : <strong>Funky Nation</strong></p>",
+            "margin_bottom": 10,
+            "text_color": "#242424"
+          }
+        },
+        "product_description_e48Ujx": {
+          "type": "product-description",
+          "disabled": true,
+          "settings": {
+            "collapsible_tab": false,
+            "icon": "heart",
+            "heading": "Description",
+            "open_close_icon": "plus_minus",
+            "open_by_default": false,
+            "margin_bottom": 30
+          }
+        }
+      },
+      "block_order": [
+        "title",
+        "sku_d9aBPL",
+        "barcode_QT4dPm",
+        "product_rating_rXh67U",
+        "price",
+        "bundler_custom_bundle_yhxctB",
+        "bundler_bundler_target_element_XfYqwa",
+        "bundler_volume_target_element_3rxpba",
+        "f0f0e917-92a5-4957-a68e-2d0bb38d7819",
+        "dealeasy_app_block_RyFKP3",
+        "text_field_cxPY96",
+        "text_EGHDyd",
+        "options",
+        "quantity_e6k6nw",
+        "dealeasy_mm_related_bundles_J8bAAB",
+        "dealeasy_vd_cards_nzGYQt",
+        "dealeasy_bogo_banner_rdxNEw",
+        "dealeasy_app_block_PcGMnx",
+        "dealeasy_mm_bundle_builder_iAnHDp",
+        "dealeasy_cvg_progress_bar_D8GaBT",
+        "text_79J6Xe",
+        "buy_buttons",
+        "dealeasy_mm_bundle_builder_ECQpQT",
+        "text_6B7r99",
+        "collapsible_tab_7drhRY",
+        "collapsible_tab_3WpXAN",
+        "collapsible_tab_8eV6NR",
+        "collapsible_tab_JeqWkh",
+        "text_pEPCxA",
+        "text_pNRRDc",
+        "text_QaGte4",
+        "text_hYapDg",
+        "collapsible_tab_nwaVED",
+        "collapsible_tab_iR44aj",
+        "collapsible_tab_8Dp7gt",
+        "collapsible_tab_aCLXBw",
+        "collapsible_tab_ym7AgL",
+        "collapsible_tab_9XhbfC",
+        "text_rNWRr7",
+        "product_description_e48Ujx"
+      ],
+      "custom_css": [
+        ".lb-vd-promotion-text {font-family: \"BAD GRUNGE\", sans-serif !important;}",
+        ".width--content {max-width: 90%;}",
+        "@media (max-width: 768px) {.width--content {max-width: 98%; /* For tablets and small devices */ }}",
+        "@media (max-width: 480px) {.width--content {max-width: 98%; /* Full width on phones */ }}"
+      ],
+      "settings": {
+        "enable_sticky": false,
+        "image_size": "small",
+        "image-display": "thumbnails",
+        "thumbnail_position": "below",
+        "enable_video_loop": true,
+        "app_margin_bottom": 20
+      }
+    },
+    "1751369787dbebfd41": {
+      "type": "apps",
+      "settings": {
+        "section_padding_top": 0,
+        "section_padding_bottom": 0,
+        "include_margins": true
+      }
+    },
+    "product-description": {
+      "type": "template--product--description",
+      "blocks": {
+        "collapsible_tab_34YC3U": {
+          "type": "collapsible_tab",
+          "settings": {
+            "title": "fabric & care",
+            "text": "<p>Share some information about your product</p>",
+            "page": "",
+            "open_by_default": false
+          }
+        },
+        "collapsible-tab-1": {
+          "type": "collapsible_tab",
+          "settings": {
+            "title": "Features",
+            "text": "<p>Share some information about your product</p>",
+            "page": "",
+            "open_by_default": false
+          }
+        },
+        "product-description": {
+          "type": "product_description",
+          "settings": {
+            "collapsible_tab": true,
+            "title": "Description",
+            "open_by_default": false
+          }
+        },
+        "collapsible-tab-2": {
+          "type": "collapsible_tab",
+          "settings": {
+            "title": "benefits",
+            "text": "<p>Share some information about your product</p>",
+            "page": "",
+            "open_by_default": false
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_tab_34YC3U",
+        "collapsible-tab-1",
+        "product-description",
+        "collapsible-tab-2"
+      ],
+      "disabled": true,
+      "settings": {
+        "open_close_icon": "plus_minus",
+        "section_width": "content",
+        "section_padding_top": 60,
+        "section_padding_bottom": 60,
+        "colors": "white",
+        "enable_readmore": false
+      }
+    },
+    "1751370024c1084768": {
+      "type": "apps",
+      "blocks": {
+        "loox_reviews_loox_dynamic_section_H3mc3M": {
+          "type": "shopify://apps/loox-reviews/blocks/loox-dynamic-section/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
+          "settings": {
+            "only_photos": true,
+            "aggregated": true,
+            "limit": 8,
+            "hide_thumbnails": false,
+            "maxwidth": 1080,
+            "is_sample": true
+          }
+        }
+      },
+      "block_order": [
+        "loox_reviews_loox_dynamic_section_H3mc3M"
+      ],
+      "settings": {
+        "section_padding_top": 0,
+        "section_padding_bottom": 0,
+        "include_margins": true
+      }
+    },
+    "product-recommendations": {
+      "type": "template--product--recommendations",
+      "settings": {
+        "title": "You may also like",
+        "description": "",
+        "layout_style": "slider",
+        "section_padding_top": 60,
+        "section_padding_bottom": 60,
+        "products_to_show": 8,
+        "grid-desktop": 4,
+        "grid-mobile": "2",
+        "colors": "light",
+        "override_button_colors": false,
+        "button_background_color": "#e68819",
+        "button_text_color": "#ffffff"
+      }
+    },
+    "41a9b7a6-bd65-4dd4-8672-1ee861ddb5a5": {
+      "type": "template--product--recently-viewed",
+      "settings": {
+        "title": "Recently viewed products",
+        "description": "",
+        "layout_style": "slider",
+        "section_padding_top": 0,
+        "section_padding_bottom": 60,
+        "products_to_show": 8,
+        "grid-desktop": 4,
+        "grid-mobile": "2",
+        "colors": "light",
+        "override_button_colors": false,
+        "button_background_color": "#e68819",
+        "button_text_color": "#ffffff"
+      }
+    }
+  },
+  "order": [
+    "product-form",
+    "1751369787dbebfd41",
+    "product-description",
+    "1751370024c1084768",
+    "product-recommendations",
+    "41a9b7a6-bd65-4dd4-8672-1ee861ddb5a5"
+  ]
+}

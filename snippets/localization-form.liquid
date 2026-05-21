@@ -1,0 +1,157 @@
+{%- if show_currency_selector and localization.available_countries.size > 1 -%}
+    <noscript>
+        {%- form 'localization', id: 'FooterCountryFormNoScript', class: 'localization-form localization-form__noscript localization-form__country' -%}
+        <div class="localization-form__select">
+            <h2 class="hide" id="FooterCountryLabelNoScript">{{ 'general.localization.country_label' | t }}</h2>
+            <select class="localization-selector-country link" name="country_code" aria-labelledby="FooterCountryLabelNoScript">
+            {%- for country in localization.available_countries -%}
+                {% case country.name %}
+                    {% when "United Kingdom" %}
+                        {% assign option_currency_iso = 'GBP' %}
+                        {% assign option_currency_symbol = '£' %}
+                    {% when "United States" %}
+                        {% assign option_currency_iso = 'USD' %}
+                        {% assign option_currency_symbol = '$' %}
+                    {% when "India" %}
+                        {% assign option_currency_iso = 'INR' %}
+                        {% assign option_currency_symbol = '₹' %}
+                    {% when "United Arab Emirates" %}
+                        {% assign option_currency_iso = 'AED' %}
+                        {% assign option_currency_symbol = 'د.إ' %}
+                    {% else %}
+                        {% assign option_currency_iso = country.currency.iso_code %}
+                        {% assign option_currency_symbol = country.currency.symbol %}
+                {% endcase %}
+                <option value="{{ country.iso_code }}" {%- if country.iso_code == localization.country.iso_code %} selected{% endif %}>
+                {{ country.name }} ({{ option_currency_iso }} {{ option_currency_symbol }})
+                </option>
+            {%- endfor -%}
+            </select>
+        </div>
+        <button class="btn alt-focus">{{ 'general.localization.update_country' | t }}</button>
+        {%- endform -%}
+    </noscript>
+
+    <localization-form>
+        {% form 'localization', id: 'FooterCountryForm', class: 'localization-form' %}
+        <div class="js">
+            <div class="disclosure">
+            <button type="button" class="disclosure__button alt-focus" aria-expanded="false" aria-controls="CountryList">
+                <span>
+          {% case localization.country.name %}
+  {% when "United Kingdom" %}
+    UK
+    {% assign selected_currency_iso = 'GBP' %}
+    {% assign selected_currency_symbol = '£' %}
+  {% when "United States" %}
+    US
+    {% assign selected_currency_iso = 'USD' %}
+    {% assign selected_currency_symbol = '$' %}
+  {% when "India" %}
+    IND
+    {% assign selected_currency_iso = 'INR' %}
+    {% assign selected_currency_symbol = '₹' %}
+  {% when "United Arab Emirates" %}
+    UAE
+    {% assign selected_currency_iso = 'AED' %}
+    {% assign selected_currency_symbol = 'د.إ' %}
+  {% else %}
+    {{ localization.country.iso_code }} {# This is the 2-letter ISO code like CA, DE, AU #}
+    {% assign selected_currency_iso = localization.country.currency.iso_code %}
+    {% assign selected_currency_symbol = localization.country.currency.symbol %}
+{% endcase %}({{ selected_currency_iso }} {{ selected_currency_symbol }})
+                </span>
+
+                <span class="icon-dropdown inline-icon--wrapper icon--right">
+                    {% render 'theme-icon' with icon: 'chevron_down', iconSize: 16, iconClasses: 'chevron-down' %}
+                </span>
+            </button>
+
+            <ul id="CountryList" role="list" class="disclosure__list localization__list" hidden>
+                {% for country in localization.available_countries %}
+                <li class="disclosure__item" tabindex="-1" {% if country.iso_code == localization.country.iso_code %}selected{% endif %}>
+                    <a class="disclosure__item_el" href="#"{% if country.iso_code == localization.country.iso_code %} aria-current="true"{% endif %} data-value="{{ country.iso_code }}">
+                    {% case country.name %}
+  {% when "United Kingdom" %}
+    UK
+    {% assign item_currency_iso = 'GBP' %}
+    {% assign item_currency_symbol = '£' %}
+  {% when "United States" %}
+    US
+    {% assign item_currency_iso = 'USD' %}
+    {% assign item_currency_symbol = '$' %}
+  {% when "India" %}
+    IND
+    {% assign item_currency_iso = 'INR' %}
+    {% assign item_currency_symbol = '₹' %}
+  {% when "United Arab Emirates" %}
+    UAE
+    {% assign item_currency_iso = 'AED' %}
+    {% assign item_currency_symbol = 'د.إ' %}
+  {% else %}
+    {{ country.iso_code }} {# This is the 2-letter ISO code like CA, DE, AU #}
+    {% assign item_currency_iso = country.currency.iso_code %}
+    {% assign item_currency_symbol = country.currency.symbol %}
+{% endcase %} ({{ item_currency_iso }} {{ item_currency_symbol }})
+                    </a>
+                </li>
+                {% endfor %}
+            </ul>
+
+            <input type="hidden" name="country_code" value="{{ localization.country.iso_code }}">
+            </div>
+        </div>
+        {% endform %}
+    </localization-form>
+{%- endif -%}
+
+{%- if show_locale_selector and localization.available_languages.size > 1 -%}
+    <noscript>
+        {%- form 'localization', id: 'FooterLanguageFormNoScript', class: 'localization-form localization-form__noscript' -%}
+            <div class="localization-form__select">
+                <h2 class="visually-hidden" id="FooterLanguageLabelNoScript">{{ 'general.localization.language_label' | t }}</h2>
+                <select class="localization-selector link" name="locale_code" aria-labelledby="FooterLanguageLabelNoScript">
+                    {%- for language in localization.available_languages -%}
+                        <option value="{{ language.iso_code }}" lang="{{ language.iso_code }}" {%- if language.iso_code == localization.language.iso_code %} selected{% endif %}>
+                            {{ language.endonym_name | capitalize }}
+                        </option>
+                    {%- endfor -%}
+                </select>
+            </div>
+            <button class="btn alt-focus">{{ 'general.localization.update_language' | t }}</button>
+        {%- endform -%}
+    </noscript>
+
+    <localization-form>
+        {% form 'localization' %}
+            <div class="js">
+                <div class="disclosure">
+                    <button type="button" class="disclosure__button" aria-expanded="false" aria-controls="LanguageList">
+                        <span>
+                            {{ localization.language.endonym_name | capitalize }}
+                        </span>
+
+                        <span class="icon-dropdown inline-icon--wrapper icon--right">
+                            {% render 'theme-icon' with icon: 'chevron_down', iconSize: 16, iconClasses: 'chevron-down' %}
+                        </span>
+                    </button>
+
+                    <ul id="LanguageList" role="list" class="disclosure__list localization__list" hidden>
+                        {% for language in localization.available_languages %}
+                            <li class="disclosure__item" tabindex="-1">
+                                <a class="disclosure__item_el" href="#"{% if language.iso_code == localization.language.iso_code %} aria-current="true"{% endif %} hreflang="{{ language.iso_code }}" lang="{{ language.iso_code }}" data-value="{{ language.iso_code }}">
+                                    {{ language.endonym_name | capitalize }}
+                                </a>
+                            </li>
+                        {% endfor %}
+                    </ul>
+
+                    <input type="hidden" name="language_code" value="{{ localization.language.iso_code }}">
+                </div>
+            </div>
+        {% endform %}
+    </localization-form>
+{%- endif -%}
+
+
+<script src="{{ 'component-localization-form.js' | asset_url }}" defer="defer" type="module" data-internal-script></script>

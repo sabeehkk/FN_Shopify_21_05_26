@@ -1,0 +1,64 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "1752472970ac8ba40e": {
+      "type": "apps",
+      "blocks": {
+        "dealeasy_cvg_progress_bar_wXDAgK": {
+          "type": "shopify://apps/dealeasy/blocks/cvg-progress-bar/e47a8634-0496-480d-9e46-6f7fafd34b30",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "dealeasy_cvg_progress_bar_wXDAgK"
+      ],
+      "disabled": true,
+      "settings": {
+        "section_padding_top": 0,
+        "section_padding_bottom": 0,
+        "include_margins": true
+      }
+    },
+    "main": {
+      "type": "template--cart",
+      "custom_css": [
+        ".wrapper-spacing--v--template {padding-bottom: 100px;}"
+      ],
+      "settings": {}
+    },
+    "f8c9e0ed-5b0f-4193-b0fa-7cff1865381a": {
+      "type": "featured-collection",
+      "disabled": true,
+      "settings": {
+        "title": "Featured collection",
+        "description": "",
+        "collection": "",
+        "override_button_colors": false,
+        "button_background_color": "#e68819",
+        "button_text_color": "#ffffff",
+        "show_view_all": false,
+        "buttons_style": "filled",
+        "section_padding_top": 60,
+        "section_padding_bottom": 60,
+        "layout_style": "slider",
+        "products_to_show": 8,
+        "grid-desktop": 4,
+        "grid-mobile": "2",
+        "colors": "light"
+      }
+    }
+  },
+  "order": [
+    "1752472970ac8ba40e",
+    "main",
+    "f8c9e0ed-5b0f-4193-b0fa-7cff1865381a"
+  ]
+}

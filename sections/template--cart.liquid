@@ -1,0 +1,252 @@
+<!-- /templates/cart.liquid -->
+{% comment %}
+  Cart with plus/minus quantity only (no manual edit)
+{% endcomment %}
+
+{{ 'template-cart.min.css' | asset_url | stylesheet_tag: preload: true }}
+
+<div class="wrapper-spacing--v--template wrapper-spacing--h">
+  <div class="width--content">
+
+    {% if cart.item_count > 0 %}
+      <div class="template-title--wrapper">
+        <h1 class="page--title template-title">{{ 'cart.general.title' | t }}</h1>
+      </div>
+
+      <form action="{{ routes.cart_url }}" method="post" novalidate class="cart-page">
+
+        <div class="cart-layout">
+
+          <!-- LEFT: CART ITEMS -->
+          <div class="cart-items">
+            {% for item in cart.items %}
+              <div class="cart-card">
+
+                <div class="cart-card__image">
+                  <a href="{{ item.url }}">
+                    <img src="{{ item.image | img_url: '200x' }}" alt="{{ item.image.alt | escape }}">
+                  </a>
+                </div>
+
+                <div class="cart-card__details">
+                  <div class="cart-card__title-row">
+                    <h3 class="cart-card__title">{{ item.product.title }}</h3>
+
+                    <!-- BIN ICON REMOVE -->
+                    <a href="{{ routes.cart_url }}/change?line={{ forloop.index }}&quantity=0" 
+                       class="cart-remove-icon" title="Remove">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="red" viewBox="0 0 24 24">
+                        <path d="M3 6h18v2H3V6zm2 3h14l-1.5 12.5a1 1 0 0 1-1 .5H7.5a1 1 0 0 1-1-.5L5 9zm5-5V2h4v2h5v2H5V4h5z"/>
+                      </svg>
+                    </a>
+                  </div>
+
+                  <!-- VARIANT (size/color) -->
+                  {% if item.variant.title != 'Default Title' %}
+                    <p class="cart-card__variant">{{ item.variant.title }}</p>
+                  {% endif %}
+
+                  <!-- PRICE -->
+                  <div class="cart-card__price">
+                    {% assign compare_price = item.variant.compare_at_price %}
+                    {% assign product_price = item.variant.price %}
+
+                    {% if item.line_price == 0 %}
+                      <p class="free-product-label">
+                        🎁 Free Product: Shop for ₹4,999 or more and get a free gym sack bag!
+                      </p>
+                      <p><span class="money free-text">₹0 (Free)</span></p>
+                    {% else %}
+                      {% if compare_price and compare_price > product_price %}
+                        <!-- Show MRP -->
+                        <p class="original-price"><span class="money strikethrough">{{ compare_price | money }}</span></p>
+
+                        <!-- Discounted Price + % Off -->
+                        {% assign discount_percentage = compare_price | minus: product_price | times: 100 | divided_by: compare_price %}
+                        <p class="offer-price">
+                          <span class="money red">{{ product_price | money }}</span>
+                          <span class="discount-label">({{ discount_percentage }}% OFF)</span>
+                        </p>
+                      {% else %}
+                        <!-- Normal product -->
+                        <p class="offer-price"><span class="money">{{ product_price | money }}</span></p>
+                      {% endif %}
+                    {% endif %}
+                  </div>
+
+                  <!-- QTY (plus/minus only) -->
+                  <div class="cart-card__qty">
+                    <label>Quantity:</label>
+                    <div class="qty-wrapper">
+                      <button type="button" class="qty-btn minus" onclick="updateQty('{{ item.key }}', -1)">−</button>
+                      <div class="qty-display" id="qty_display_{{ item.key }}">{{ item.quantity }}</div>
+                      <button type="button" class="qty-btn plus" onclick="updateQty('{{ item.key }}', 1)">+</button>
+                    </div>
+                  </div>
+
+                  <!-- ITEM TOTAL -->
+                  {% if item.line_price == 0 %}
+                    <p class="cart-card__total">Total: <span class="money free-text">₹0 (Free)</span></p>
+                  {% else %}
+                    <p class="cart-card__total">Total: <span class="money">{{ item.line_price | money }}</span></p>
+                  {% endif %}
+                </div>
+              </div>
+            {% endfor %}
+          </div>
+
+          <!-- RIGHT: SUMMARY -->
+          <div class="cart-summary">
+            <h3>Price Details</h3>
+
+            <!-- MRP Subtotal -->
+            {% assign original_subtotal = 0 %}
+            {% for item in cart.items %}
+              {% if item.line_price > 0 %}
+                {% assign item_total = item.variant.compare_at_price | default: item.variant.price | times: item.quantity %}
+                {% assign original_subtotal = original_subtotal | plus: item_total %}
+              {% endif %}
+            {% endfor %}
+            <p>MRP Total: <span class="money ">{{ original_subtotal | money }}</span></p>
+
+            <!-- Discount Calculation -->
+            {% assign discount_total = original_subtotal | minus: cart.total_price %}
+            {% if discount_total > 0 %}
+              <p class="discount-row">Discount on MRP: -<span class="money green">{{ discount_total | money }}</span></p>
+            {% endif %}
+
+            <!-- Final Cart Total -->
+            <p class="cart-summary__total">Total Amount: <span class="money red">{{ cart.total_price | money }}</span></p>
+
+            
+            <!-- ✅ NEW: Applied Discount Details -->
+            {% if cart.discount_applications.size > 0 %}
+              <div class="cart-discounts">
+                <h4>Applied Discounts:</h4>
+                <ul>
+                  {% for discount in cart.discount_applications %}
+                    <li>
+                      <strong>{{ discount.title }}</strong>
+                      {% if discount.value_type == 'percentage' %}
+                        – {{ discount.value }}% off
+                      {% elsif discount.value_type == 'fixed_amount' %}
+                        – {{ discount.value | money }} off
+                      {% endif %}
+                    </li>
+                  {% endfor %}
+                </ul>
+              </div>
+            {% endif %}
+
+            <!-- CHECKOUT -->
+            <button type="submit" name="checkout" class="checkout-btn">Place Order</button>
+          </div>
+        </div>
+
+      </form>
+
+    {% else %}
+      <div class="template-title--wrapper">
+        <h1 class="page--title template-title">{{ 'cart.general.title' | t }}</h1>
+      </div>
+      <div class="cart--empty-cart">
+        <p>{{ 'cart.general.empty' | t }}</p>
+        <a href="{{ routes.collections_url }}/mens-collection" class="btn">{{ 'general.continue_shopping' | t }}</a>
+      </div>
+    {% endif %}
+  </div>
+</div>
+
+<!-- JS for qty buttons -->
+<script>
+function updateQty(itemKey, change) {
+  const qtyBox = document.getElementById(`qty_display_${itemKey}`);
+  let newVal = parseInt(qtyBox.textContent) + change;
+  if (newVal < 1) newVal = 1;
+
+  qtyBox.textContent = newVal;
+
+  fetch('/cart/change.js', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({ id: itemKey, quantity: newVal })
+  })
+  .then(res => res.json())
+  .then(() => location.reload());
+}
+</script>
+
+<style>
+.qty-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.qty-btn {
+  background: #f5f5f5;
+  border: 1px solid #ccc;
+  width: 32px;
+  height: 32px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background 0.2s ease;
+}
+.qty-btn:hover { background: #e0e0e0; }
+.qty-display {
+  min-width: 40px;
+  text-align: center;
+  font-size: 16px;
+  padding: 6px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background: #fff;
+}
+.checkout-btn {
+  display: block;
+  width: 100%;
+  margin-top: 10px;
+  padding: 12px;
+  background: #000;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  border-radius: 6px;
+}
+.free-product-label { color: green; font-weight: bold; }
+.free-text { color: green; font-weight: bold; }
+.original-price { font-size: 14px; color: #555; text-decoration: line-through; margin-bottom: 2px; }
+.offer-price { font-size: 16px; font-weight: bold; }
+.money.red { color: #d32f2f; }
+.discount-label { color: green; font-weight: bold; margin-left: 5px; }
+.discount-row { font-size: 14px; color: green; }
+.cart-summary__total { font-size: 18px; font-weight: bold; margin-top: 10px; }
+.cart-card__title { font-size: 16px; }
+.cart-card__price { font-size: 14px; }
+
+.cart-discounts {
+  margin-top: 12px;
+  padding: 10px;
+  background: #f9f9f9;
+  border: 1px dashed #ccc;
+  border-radius: 5px;
+}
+.cart-discounts h4 {
+  margin-bottom: 5px;
+  font-size: 14px;
+}
+.cart-discounts ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.cart-discounts li {
+  font-size: 14px;
+  color: #388e3c;
+}
+</style>

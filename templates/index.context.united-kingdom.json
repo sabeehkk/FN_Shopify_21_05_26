@@ -1,0 +1,105 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "parent": "index.json",
+  "context": {
+    "market": "united-kingdom"
+  },
+  "sections": {
+    "image_with_text_xUpWh": {
+      "type": "coming-soon-region",
+      "disabled": false,
+      "settings": {
+        "flag_image": "shopify://shop_images/UK-Flag.jpg",
+        "eyebrow": "Funky Nation",
+        "market_label": "UK",
+        "heading": "COMING SOON",
+        "message": "<p>New energy, fresh drops, and a stronger shopping experience are on the way.</p>",
+        "section_padding_top": 35,
+        "section_padding_bottom": 35
+      },
+      "blocks": {},
+      "block_order": [],
+      "name": "Coming soon region"
+    },
+    "slideshow_cEzUF4": {
+      "disabled": true,
+      "settings": {},
+      "blocks": {}
+    },
+    "image_with_text_overlay_z4aTEb": {
+      "disabled": true,
+      "settings": {},
+      "blocks": {}
+    },
+    "17515398416e4c2d51": {
+      "disabled": true,
+      "settings": {},
+      "blocks": {}
+    },
+    "gallery_slideshow_nmEYBf": {
+      "disabled": true,
+      "settings": {},
+      "blocks": {}
+    },
+    "gallery_slideshow_iHE3wV": {
+      "disabled": true,
+      "settings": {},
+      "blocks": {}
+    },
+    "slideshow_hhkwyg": {
+      "disabled": true,
+      "settings": {},
+      "blocks": {}
+    },
+    "featured_collection_htqPxF": {
+      "disabled": true,
+      "settings": {},
+      "blocks": {}
+    },
+    "rich_text_bW98kF": {
+      "disabled": true,
+      "settings": {},
+      "blocks": {}
+    },
+    "17513722526f8fd3c3": {
+      "disabled": true,
+      "settings": {},
+      "blocks": {}
+    }
+  },
+  "order": [
+    "video_944DTP",
+    "slideshow_cEzUF4",
+    "scrolling_banner_4zy74H",
+    "image_with_text_overlay_z4aTEb",
+    "17515398416e4c2d51",
+    "image_with_text_xUpWh",
+    "gallery_slideshow_nmEYBf",
+    "gallery_slideshow_iHE3wV",
+    "slideshow_hhkwyg",
+    "featured_collection_htqPxF",
+    "scrolling_banner_aaMLFC",
+    "gallery_slideshow_UFULeC",
+    "rich_text_bW98kF",
+    "17513722526f8fd3c3",
+    "image_with_text_overlay_LyH8yg",
+    "rich_text_tCCm99",
+    "17447991775c4732fd",
+    "rich_text_Mr3bUn",
+    "1743680603833a7433",
+    "image_with_text_overlay_mNJXWt",
+    "blog_posts_HLD6h3",
+    "shop_the_look_CTAxMU",
+    "testimonials_Gtk9iC",
+    "template_product_info_columns_abJHiJ",
+    "1738932582af198ef1"
+  ]
+}

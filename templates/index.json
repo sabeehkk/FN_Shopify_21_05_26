@@ -1,0 +1,2176 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "video_944DTP": {
+      "type": "video",
+      "disabled": true,
+      "settings": {
+        "title": "",
+        "description": "",
+        "video": "shopify://files/videos/Motiv8-home-video.mp4",
+        "url": "",
+        "loop": true,
+        "autoplay": true,
+        "mute": true,
+        "show_controls": false,
+        "width_classes": 100,
+        "section_padding_top": 0,
+        "section_padding_bottom": 0,
+        "colors": "white",
+        "video_overlay_opacity": 95,
+        "override_button_colors": false,
+        "button_background_color": "#e68819",
+        "button_text_color": "#ffffff"
+      }
+    },
+    "slideshow_cEzUF4": {
+      "type": "slideshow",
+      "blocks": {
+        "image_ghpK7p": {
+          "type": "image",
+          "settings": {
+            "title": "Make a great \nfirst impression",
+            "text": "Add images and text to give focus to your chosen product, collection, or blog post.",
+            "first_button_label": "Shop now",
+            "first_button_link": "",
+            "second_button_label": "Learn more",
+            "second_button_link": "",
+            "buttons_style": "filled",
+            "override_button_colors": false,
+            "button-background": "#e68819",
+            "button-text": "#ffffff",
+            "image": "shopify://shop_images/Banner_5.png",
+            "desktop-caption-heading-size": 60,
+            "desktop-caption-body-text-size": 24,
+            "text_position": "center_left",
+            "mobile_image": "shopify://shop_images/Untitled_design_1.png",
+            "mobile-caption-heading-size": 36,
+            "mobile-caption-body-text-size": 16,
+            "mobile_text_position": "center_left",
+            "image_overlay": "#242424",
+            "image_overlay_opacity": 0,
+            "caption-text": "#ffffff"
+          }
+        },
+        "image_iA7TNM": {
+          "type": "image",
+          "settings": {
+            "title": "Make a great \nfirst impression",
+            "text": "Add images and text to give focus to your chosen product, collection, or blog post.",
+            "first_button_label": "Shop now",
+            "first_button_link": "",
+            "second_button_label": "Learn more",
+            "second_button_link": "",
+            "buttons_style": "filled",
+            "override_button_colors": false,
+            "button-background": "#e68819",
+            "button-text": "#ffffff",
+            "image": "shopify://shop_images/dream_2.png",
+            "desktop-caption-heading-size": 60,
+            "desktop-caption-body-text-size": 24,
+            "text_position": "center_left",
+            "mobile_image": "shopify://shop_images/FN-Banner_3.png",
+            "mobile-caption-heading-size": 36,
+            "mobile-caption-body-text-size": 16,
+            "mobile_text_position": "center_left",
+            "image_overlay": "#242424",
+            "image_overlay_opacity": 0,
+            "caption-text": "#ffffff"
+          }
+        },
+        "image_dpCjhT": {
+          "type": "image",
+          "settings": {
+            "title": "Make a great \nfirst impression",
+            "text": "Add images and text to give focus to your chosen product, collection, or blog post.",
+            "first_button_label": "Shop now",
+            "first_button_link": "",
+            "second_button_label": "Learn more",
+            "second_button_link": "",
+            "buttons_style": "filled",
+            "override_button_colors": false,
+            "button-background": "#e68819",
+            "button-text": "#ffffff",
+            "image": "shopify://shop_images/banner_2_funky_nation.png",
+            "desktop-caption-heading-size": 60,
+            "desktop-caption-body-text-size": 24,
+            "text_position": "center_left",
+            "mobile_image": "shopify://shop_images/FN-Banner_2.png",
+            "mobile-caption-heading-size": 36,
+            "mobile-caption-body-text-size": 16,
+            "mobile_text_position": "center_left",
+            "image_overlay": "#242424",
+            "image_overlay_opacity": 0,
+            "caption-text": "#ffffff"
+          }
+        },
+        "image_nBh7VX": {
+          "type": "image",
+          "settings": {
+            "title": "Make a great \nfirst impression",
+            "text": "Add images and text to give focus to your chosen product, collection, or blog post.",
+            "first_button_label": "Shop now",
+            "first_button_link": "",
+            "second_button_label": "Learn more",
+            "second_button_link": "",
+            "buttons_style": "filled",
+            "override_button_colors": false,
+            "button-background": "#e68819",
+            "button-text": "#ffffff",
+            "image": "shopify://shop_images/Banner_funky_nation1_jpg.jpg",
+            "desktop-caption-heading-size": 60,
+            "desktop-caption-body-text-size": 24,
+            "text_position": "center_left",
+            "mobile_image": "shopify://shop_images/banner_1_jpg.jpg",
+            "mobile-caption-heading-size": 36,
+            "mobile-caption-body-text-size": 16,
+            "mobile_text_position": "center_left",
+            "image_overlay": "#242424",
+            "image_overlay_opacity": 0,
+            "caption-text": "#ffffff"
+          }
+        },
+        "image_EwqWrK": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "title": "Make a great \nfirst impression",
+            "text": "Add images and text to give focus to your chosen product, collection, or blog post",
+            "first_button_label": "Shop now",
+            "first_button_link": "",
+            "second_button_label": "Learn more",
+            "second_button_link": "",
+            "buttons_style": "filled",
+            "override_button_colors": false,
+            "button-background": "#e68819",
+            "button-text": "#ffffff",
+            "desktop-caption-heading-size": 60,
+            "desktop-caption-body-text-size": 24,
+            "text_position": "center_left",
+            "mobile-caption-heading-size": 36,
+            "mobile-caption-body-text-size": 16,
+            "mobile_text_position": "center_left",
+            "image_overlay": "#242424",
+            "image_overlay_opacity": 0,
+            "caption-text": "#ffffff"
+          }
+        },
+        "image_P7nmGJ": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "title": "Promote your \ntop earners",
+            "text": "Showcase key products or collections to maximise your profits",
+            "first_button_label": "Shop now",
+            "first_button_link": "",
+            "second_button_label": "Learn more",
+            "second_button_link": "",
+            "buttons_style": "filled",
+            "override_button_colors": false,
+            "button-background": "#e68819",
+            "button-text": "#ffffff",
+            "desktop-caption-heading-size": 60,
+            "desktop-caption-body-text-size": 24,
+            "text_position": "center_left",
+            "mobile-caption-heading-size": 36,
+            "mobile-caption-body-text-size": 16,
+            "mobile_text_position": "center_left",
+            "image_overlay": "#242424",
+            "image_overlay_opacity": 0,
+            "caption-text": "#ffffff"
+          }
+        },
+        "image_EtDNAY": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "title": "",
+            "text": "",
+            "first_button_label": "",
+            "first_button_link": "",
+            "second_button_label": "",
+            "second_button_link": "",
+            "buttons_style": "filled",
+            "override_button_colors": false,
+            "button-background": "#e68819",
+            "button-text": "#ffffff",
+            "image": "shopify://shop_images/funky-nation-offer-banner-15.png",
+            "desktop-caption-heading-size": 60,
+            "desktop-caption-body-text-size": 24,
+            "text_position": "bottom_left",
+            "mobile_image": "shopify://shop_images/Funky-Nation-offer-banner-15a.png",
+            "mobile-caption-heading-size": 36,
+            "mobile-caption-body-text-size": 16,
+            "mobile_text_position": "bottom",
+            "image_overlay": "#242424",
+            "image_overlay_opacity": 0,
+            "caption-text": "#ffffff"
+          }
+        },
+        "image_crPMdx": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "title": "",
+            "text": "",
+            "first_button_label": "",
+            "first_button_link": "",
+            "second_button_label": "",
+            "second_button_link": "",
+            "buttons_style": "filled",
+            "override_button_colors": false,
+            "button-background": "#e68819",
+            "button-text": "#ffffff",
+            "image": "shopify://shop_images/Funky-Nation-Banner-9_61e16d9f-7c61-4209-ba95-c8644313439b.png",
+            "desktop-caption-heading-size": 60,
+            "desktop-caption-body-text-size": 24,
+            "text_position": "center",
+            "mobile_image": "shopify://shop_images/Funky-Nation-Banner-9-Mobile-02.png",
+            "mobile-caption-heading-size": 22,
+            "mobile-caption-body-text-size": 12,
+            "mobile_text_position": "center",
+            "image_overlay": "#242424",
+            "image_overlay_opacity": 0,
+            "caption-text": "#ffffff"
+          }
+        },
+        "image_dL86PW": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "title": "",
+            "text": "",
+            "first_button_label": "",
+            "first_button_link": "",
+            "second_button_label": "",
+            "second_button_link": "",
+            "buttons_style": "filled",
+            "override_button_colors": false,
+            "button-background": "#e68819",
+            "button-text": "#ffffff",
+            "image": "shopify://shop_images/Funky-Nation-Banner-14_0fa7f42c-aecf-4460-9ba3-2a35973bd4f8.png",
+            "desktop-caption-heading-size": 60,
+            "desktop-caption-body-text-size": 24,
+            "text_position": "center_left",
+            "mobile_image": "shopify://shop_images/Funky-Nation-Banner-14c.png",
+            "mobile-caption-heading-size": 36,
+            "mobile-caption-body-text-size": 16,
+            "mobile_text_position": "center_left",
+            "image_overlay": "#242424",
+            "image_overlay_opacity": 0,
+            "caption-text": "#ffffff"
+          }
+        },
+        "image_bXYGDT": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "title": "",
+            "text": "",
+            "first_button_label": "",
+            "first_button_link": "",
+            "second_button_label": "",
+            "second_button_link": "",
+            "buttons_style": "filled",
+            "override_button_colors": false,
+            "button-background": "#e68819",
+            "button-text": "#ffffff",
+            "image": "shopify://shop_images/Funky-Nation-Banner-15.png",
+            "desktop-caption-heading-size": 60,
+            "desktop-caption-body-text-size": 24,
+            "text_position": "bottom_left",
+            "mobile_image": "shopify://shop_images/Funky-Nation-Banner-15c.png",
+            "mobile-caption-heading-size": 36,
+            "mobile-caption-body-text-size": 16,
+            "mobile_text_position": "bottom",
+            "image_overlay": "#242424",
+            "image_overlay_opacity": 0,
+            "caption-text": "#ffffff"
+          }
+        },
+        "image_3FcCnh": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "title": "",
+            "text": "",
+            "first_button_label": "",
+            "first_button_link": "",
+            "second_button_label": "",
+            "second_button_link": "",
+            "buttons_style": "filled",
+            "override_button_colors": false,
+            "button-background": "#e68819",
+            "button-text": "#ffffff",
+            "image": "shopify://shop_images/Funky-Nation-Banner-7_c390ed25-be38-4f6e-a7f4-d80a3eda3884.png",
+            "desktop-caption-heading-size": 60,
+            "desktop-caption-body-text-size": 24,
+            "text_position": "center",
+            "mobile_image": "shopify://shop_images/Funky-Nation-Banner-7-mobile-02_949a17f5-7daa-43a6-907a-359d126ac373.png",
+            "mobile-caption-heading-size": 22,
+            "mobile-caption-body-text-size": 12,
+            "mobile_text_position": "center",
+            "image_overlay": "#242424",
+            "image_overlay_opacity": 0,
+            "caption-text": "#ffffff"
+          }
+        },
+        "image_nxb4Uz": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "title": "",
+            "text": "",
+            "first_button_label": "",
+            "first_button_link": "",
+            "second_button_label": "",
+            "second_button_link": "",
+            "buttons_style": "filled",
+            "override_button_colors": false,
+            "button-background": "#e68819",
+            "button-text": "#ffffff",
+            "image": "shopify://shop_images/Funky-Nation-Banner-8_642aa181-7f54-4c8e-bf82-d531baaafd00.png",
+            "desktop-caption-heading-size": 60,
+            "desktop-caption-body-text-size": 22,
+            "text_position": "center",
+            "mobile_image": "shopify://shop_images/Funky-Nation-Banner-8-Mobile-03.png",
+            "mobile-caption-heading-size": 22,
+            "mobile-caption-body-text-size": 12,
+            "mobile_text_position": "center",
+            "image_overlay": "#242424",
+            "image_overlay_opacity": 0,
+            "caption-text": "#ffffff"
+          }
+        }
+      },
+      "block_order": [
+        "image_ghpK7p",
+        "image_iA7TNM",
+        "image_dpCjhT",
+        "image_nBh7VX",
+        "image_EwqWrK",
+        "image_P7nmGJ",
+        "image_EtDNAY",
+        "image_crPMdx",
+        "image_dL86PW",
+        "image_bXYGDT",
+        "image_3FcCnh",
+        "image_nxb4Uz"
+      ],
+      "settings": {
+        "slide_transition_delay": 4,
+        "slide_navigation_style": "dots",
+        "section_padding_top": 0,
+        "section_padding_bottom": 0,
+        "desktop_height": "original",
+        "mobile_height": "original"
+      }
+    },
+    "scrolling_banner_4zy74H": {
+      "type": "scrolling-banner",
+      "blocks": {
+        "image_QqUwbB": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/insta11_ab2dc8a9-796a-4e3a-9d12-6016f34806eb.png",
+            "height_desktop": 64,
+            "height_mobile": 52,
+            "link": "https://www.instagram.com/funkynation.official/"
+          }
+        },
+        "text_QWahpB": {
+          "type": "text",
+          "settings": {
+            "text": "<a href=\"https://www.instagram.com/funkynation.official/\" title=\"https://www.instagram.com/funkynation.official/\">Welcome to Funky Nation - Join the Nation. Wear Your Attitude.</a>",
+            "font": "heading",
+            "style": "outline",
+            "font_size_desktop": 20,
+            "font_size_mobile": 12
+          }
+        }
+      },
+      "block_order": [
+        "image_QqUwbB",
+        "text_QWahpB"
+      ],
+      "disabled": true,
+      "custom_css": [],
+      "name": "t:sections.scrolling-banner.name",
+      "settings": {
+        "title": "",
+        "description": "",
+        "show_fade": false,
+        "borders": false,
+        "animation_direction": "normal",
+        "animation_speed": 60,
+        "section_padding_top": 0,
+        "section_padding_bottom": 0,
+        "space_between_blocks_desktop": 40,
+        "space_between_blocks_mobile": 20,
+        "rotate": "0",
+        "color_scheme": "white"
+      }
+    },
+    "image_with_text_overlay_z4aTEb": {
+      "type": "image-with-text-overlay",
+      "disabled": true,
+      "custom_css": [],
+      "settings": {
+        "image_desktop": "shopify://shop_images/Funky-Nation-Banner-14-01.gif",
+        "height_desktop": "original",
+        "text_position_desktop": "center",
+        "text_alignment_desktop": "center",
+        "caption_width_desktop": 50,
+        "image_mobile": "shopify://shop_images/Funky-Nation-Banner-14.gif",
+        "height_mobile": "original",
+        "text_position_mobile": "center",
+        "text_alignment_mobile": "center",
+        "section_link": "",
+        "animation_style": "none",
+        "section_margin_top": 5,
+        "section_margin_bottom": 0,
+        "text_color": "#ffffff",
+        "caption_bg_color": "rgba(0,0,0,0)",
+        "image_overlay_color": "#242424",
+        "image_overlay_opacity": 0
+      }
+    },
+    "17515398416e4c2d51": {
+      "type": "apps",
+      "blocks": {
+        "countdown_timer_essential_app_block_gfGGLH": {
+          "type": "shopify://apps/essential-countdown-timer/blocks/app-block/722378e8-5a70-4eae-aa89-9e44e8e9f6de",
+          "settings": {
+            "id": "cmcn9ihim00ay6ax8i1rpgyez"
+          }
+        }
+      },
+      "block_order": [
+        "countdown_timer_essential_app_block_gfGGLH"
+      ],
+      "settings": {
+        "section_padding_top": 0,
+        "section_padding_bottom": 20,
+        "include_margins": false
+      }
+    },
+    "gallery_slideshow_ptJYiz": {
+      "type": "gallery-slideshow",
+      "blocks": {
+        "image_XdXDii": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "link": "",
+            "subheading": "<strong>Sport Bras</strong>",
+            "title": "",
+            "button_label": "",
+            "text_color": "#494949",
+            "overlay_color": "#242424",
+            "overlay_opacity": 0
+          }
+        },
+        "image_ba8Upg": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "link": "shopify://collections/skirt",
+            "subheading": "<strong>Skirts & Dress</strong>",
+            "title": "",
+            "button_label": "",
+            "text_color": "#242424",
+            "overlay_color": "#242424",
+            "overlay_opacity": 0
+          }
+        },
+        "image_hkAbaX": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "link": "shopify://collections/leggings",
+            "subheading": "<strong>Leggings</strong>",
+            "title": "",
+            "button_label": "",
+            "text_color": "#494949",
+            "overlay_color": "#242424",
+            "overlay_opacity": 0
+          }
+        },
+        "image_4UHpKy": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "link": "shopify://collections/shorts",
+            "subheading": "<strong>Shorts</strong>",
+            "title": "",
+            "button_label": "",
+            "text_color": "#242424",
+            "overlay_color": "#242424",
+            "overlay_opacity": 0
+          }
+        },
+        "image_mHMLxK": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "link": "shopify://collections/t-shirts",
+            "subheading": "<strong>T Shirts</strong>",
+            "title": "",
+            "button_label": "",
+            "text_color": "#242424",
+            "overlay_color": "#242424",
+            "overlay_opacity": 0
+          }
+        },
+        "image_mbPqHw": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "link": "shopify://collections/hoodies-jackets",
+            "subheading": "<strong>Hoodies & Jackets</strong>",
+            "title": "",
+            "button_label": "",
+            "text_color": "#242424",
+            "overlay_color": "#242424",
+            "overlay_opacity": 0
+          }
+        },
+        "image_3zPt9E": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "link": "shopify://collections/socks",
+            "subheading": "<strong>Socks</strong>",
+            "title": "",
+            "button_label": "",
+            "text_color": "#242424",
+            "overlay_color": "#242424",
+            "overlay_opacity": 0
+          }
+        },
+        "image_ztTfdK": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "link": "shopify://collections/yoga-mats",
+            "subheading": "<strong>Yoga Mats</strong>",
+            "title": "",
+            "button_label": "",
+            "text_color": "#242424",
+            "overlay_color": "#242424",
+            "overlay_opacity": 0
+          }
+        },
+        "image_nehXEm": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "link": "shopify://collections/weights",
+            "subheading": "<strong>Weights</strong>",
+            "title": "",
+            "button_label": "",
+            "text_color": "#242424",
+            "overlay_color": "#242424",
+            "overlay_opacity": 0
+          }
+        },
+        "image_ALALbY": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "link": "shopify://collections/protein-shakes",
+            "subheading": "<strong>Supplements</strong>",
+            "title": "",
+            "button_label": "",
+            "text_color": "#242424",
+            "overlay_color": "#242424",
+            "overlay_opacity": 0
+          }
+        },
+        "image_eqXh9m": {
+          "type": "image",
+          "settings": {
+            "link": "shopify://collections/port-de-bras",
+            "subheading": "<strong>Port De Bra</strong>",
+            "title": "",
+            "button_label": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#242424",
+            "overlay_opacity": 0
+          }
+        },
+        "image_cmqdnG": {
+          "type": "image",
+          "settings": {
+            "link": "shopify://collections/silvertraq",
+            "subheading": "<strong>Silvertraq</strong>",
+            "title": "",
+            "button_label": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#242424",
+            "overlay_opacity": 0
+          }
+        },
+        "image_brexwh": {
+          "type": "image",
+          "settings": {
+            "link": "shopify://collections/squatwolf",
+            "subheading": "<strong>SquatWolf</strong>",
+            "title": "",
+            "button_label": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#242424",
+            "overlay_opacity": 0
+          }
+        },
+        "image_i9nXm3": {
+          "type": "image",
+          "settings": {
+            "link": "shopify://collections/michi",
+            "subheading": "<strong>Michi</strong>",
+            "title": "",
+            "button_label": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#242424",
+            "overlay_opacity": 0
+          }
+        },
+        "image_BLCDU8": {
+          "type": "image",
+          "settings": {
+            "link": "shopify://collections/yoga-democracy",
+            "subheading": "<strong>Yoga Democracy</strong>",
+            "title": "",
+            "button_label": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#242424",
+            "overlay_opacity": 0
+          }
+        },
+        "image_CdjQje": {
+          "type": "image",
+          "settings": {
+            "link": "shopify://collections/dignitii",
+            "subheading": "<strong>Dignitii</strong>",
+            "title": "",
+            "button_label": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#242424",
+            "overlay_opacity": 0
+          }
+        },
+        "image_Pg73Lf": {
+          "type": "image",
+          "settings": {
+            "link": "shopify://collections/bala",
+            "subheading": "<strong>Bala</strong>",
+            "title": "",
+            "button_label": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#242424",
+            "overlay_opacity": 0
+          }
+        },
+        "image_jnym6V": {
+          "type": "image",
+          "settings": {
+            "link": "shopify://collections/manduka",
+            "subheading": "<strong>Manduka</strong>",
+            "title": "",
+            "button_label": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#242424",
+            "overlay_opacity": 0
+          }
+        },
+        "image_JFR3M6": {
+          "type": "image",
+          "settings": {
+            "link": "shopify://collections/womens-best",
+            "subheading": "<strong>Women's Best</strong>",
+            "title": "",
+            "button_label": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#242424",
+            "overlay_opacity": 0
+          }
+        },
+        "image_CbxqVN": {
+          "type": "image",
+          "settings": {
+            "link": "shopify://collections/shokz",
+            "subheading": "<strong>Shokz</strong>",
+            "title": "",
+            "button_label": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#242424",
+            "overlay_opacity": 0
+          }
+        },
+        "image_jUYwTC": {
+          "type": "image",
+          "settings": {
+            "link": "shopify://collections/garmin",
+            "subheading": "<strong>Garmin</strong>",
+            "title": "",
+            "button_label": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#242424",
+            "overlay_opacity": 0
+          }
+        },
+        "image_cigfUV": {
+          "type": "image",
+          "settings": {
+            "link": "shopify://collections/ringo",
+            "subheading": "<strong>Ringo</strong>",
+            "title": "",
+            "button_label": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#242424",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "image_XdXDii",
+        "image_ba8Upg",
+        "image_hkAbaX",
+        "image_4UHpKy",
+        "image_mHMLxK",
+        "image_mbPqHw",
+        "image_3zPt9E",
+        "image_ztTfdK",
+        "image_nehXEm",
+        "image_ALALbY",
+        "image_eqXh9m",
+        "image_cmqdnG",
+        "image_brexwh",
+        "image_i9nXm3",
+        "image_BLCDU8",
+        "image_CdjQje",
+        "image_Pg73Lf",
+        "image_jnym6V",
+        "image_JFR3M6",
+        "image_CbxqVN",
+        "image_jUYwTC",
+        "image_cigfUV"
+      ],
+      "disabled": true,
+      "custom_css": [
+        "content-grid-slider {display: flex;}",
+        ".swiper-btn--wrapper.swiper-btn-layout__left-and-right {flex: 1;}",
+        ".section-title {font-size: 23px;}"
+      ],
+      "settings": {
+        "title": "SHOP BY BRANDS",
+        "description": "",
+        "image_shape": "natural",
+        "layout_style_desktop": "slider",
+        "images_per_row_desktop": 6,
+        "text_position_desktop": "below",
+        "show_on_hover": false,
+        "layout_style_mobile": "slider",
+        "images_per_row_mobile": "2",
+        "text_position_mobile": "below",
+        "buttons_style": "underlined",
+        "override_button_colors": false,
+        "button_background_color": "#e68819",
+        "button_text_color": "#242424",
+        "hover_navigation_desktop": "left-and-right",
+        "section_width": "content",
+        "remove_spacing": false,
+        "section_padding_top": 60,
+        "section_padding_bottom": 55,
+        "colors": "light"
+      }
+    },
+    "gallery_slideshow_nmEYBf": {
+      "type": "gallery-slideshow",
+      "blocks": {
+        "image_CAD4gD": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/1.jpg_1.jpg",
+            "link": "shopify://collections/funk-street-tees",
+            "subheading": "",
+            "title": "",
+            "button_label": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#242424",
+            "overlay_opacity": 0
+          }
+        },
+        "image_LWeWje": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/2.jpg_2.jpg",
+            "link": "shopify://collections/good-for-pre-post-workout",
+            "subheading": "",
+            "title": "",
+            "button_label": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#242424",
+            "overlay_opacity": 0
+          }
+        },
+        "image_ckBPFL": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/3.jpg_3.jpg",
+            "link": "shopify://collections/tanks-for-muscle-workout",
+            "subheading": "",
+            "title": "",
+            "button_label": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#242424",
+            "overlay_opacity": 0
+          }
+        },
+        "image_cimzyt": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/4.jpg_2.jpg",
+            "link": "shopify://collections/hoodie",
+            "subheading": "",
+            "title": "",
+            "button_label": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#242424",
+            "overlay_opacity": 0
+          }
+        },
+        "image_wEtdGL": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/shorts.jpg",
+            "link": "shopify://collections/shorts",
+            "subheading": "<strong>SHORTS</strong>",
+            "title": "",
+            "button_label": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#242424",
+            "overlay_opacity": 0
+          }
+        },
+        "image_64a9yW": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/joggers.jpg",
+            "link": "shopify://collections/joggers",
+            "subheading": "<strong>JOGGER</strong>",
+            "title": "",
+            "button_label": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#242424",
+            "overlay_opacity": 0
+          }
+        },
+        "image_LGzWBd": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/bag.jpg",
+            "link": "shopify://collections/accessories",
+            "subheading": "<strong>ACCESSORIES</strong>",
+            "title": "",
+            "button_label": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#242424",
+            "overlay_opacity": 0
+          }
+        },
+        "image_NJpVbd": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/slide.jpg",
+            "link": "shopify://collections/accessories",
+            "subheading": "<strong>SLIDES</strong>",
+            "title": "",
+            "button_label": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#242424",
+            "overlay_opacity": 0
+          }
+        },
+        "image_UDfkgC": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "link": "",
+            "subheading": "Subheading",
+            "title": "Heading",
+            "button_label": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#242424",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "image_CAD4gD",
+        "image_LWeWje",
+        "image_ckBPFL",
+        "image_cimzyt",
+        "image_wEtdGL",
+        "image_64a9yW",
+        "image_LGzWBd",
+        "image_NJpVbd",
+        "image_UDfkgC"
+      ],
+      "custom_css": [
+        ".content-grid-item__heading {font-size: 38px; word-break: break-word;}",
+        ".content-grid--mobile-grid {display: flex; flex-wrap: nowrap; justify-content: center; gap: 12px; overflow-x: auto; -webkit-overflow-scrolling: touch;}",
+        ".content-grid--mobile-grid .content-grid-item {flex: 0 0 auto; position: relative;}",
+        "@media (max-width: 767px) {.content-grid-item__heading {font-size: 8px !important; white-space: normal; text-align: center; margin: 5px 0; }}"
+      ],
+      "name": "t:sections.gallery-slideshow.name",
+      "settings": {
+        "title": "shop by functional",
+        "description": "",
+        "image_shape": "tall",
+        "layout_style_desktop": "slider",
+        "images_per_row_desktop": 4,
+        "text_position_desktop": "center",
+        "show_on_hover": false,
+        "layout_style_mobile": "slider",
+        "images_per_row_mobile": "5",
+        "text_position_mobile": "center",
+        "buttons_style": "filled",
+        "override_button_colors": false,
+        "button_background_color": "#e68819",
+        "button_text_color": "#ffffff",
+        "hover_navigation_desktop": "left-and-right",
+        "section_width": "content",
+        "remove_spacing": false,
+        "section_padding_top": 0,
+        "section_padding_bottom": 0,
+        "colors": "white"
+      }
+    },
+    "gallery_slideshow_iHE3wV": {
+      "type": "gallery-slideshow",
+      "blocks": {
+        "image_8HPqXT": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/FN1-P1_cce79f52-6a35-4318-959f-bf529ae7274d.png",
+            "link": "shopify://collections/muscle-tank",
+            "subheading": "<strong>TANKS</strong>",
+            "title": "",
+            "button_label": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#242424",
+            "overlay_opacity": 0
+          }
+        },
+        "image_zA8Qfj": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/FN3-P2.png",
+            "link": "shopify://collections/t-shirt",
+            "subheading": "<strong>T-SHIRT</strong>",
+            "title": "",
+            "button_label": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#242424",
+            "overlay_opacity": 0
+          }
+        },
+        "image_x3bgXX": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/FN5-P2.png",
+            "link": "shopify://collections/sweatshirt",
+            "subheading": "<strong>SWEATSHIRT</strong>",
+            "title": "",
+            "button_label": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#242424",
+            "overlay_opacity": 0
+          }
+        },
+        "image_wBYpmf": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/FN4-P1.png",
+            "link": "shopify://collections/hoodie",
+            "subheading": "<strong>HOODIE</strong>",
+            "title": "",
+            "button_label": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#242424",
+            "overlay_opacity": 0
+          }
+        },
+        "image_AWkhnQ": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/FN10-P1.png",
+            "link": "shopify://collections/shorts",
+            "subheading": "<strong>SHORTS</strong>",
+            "title": "",
+            "button_label": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#242424",
+            "overlay_opacity": 0
+          }
+        },
+        "image_zyfryF": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/FN7-P1.jpg",
+            "link": "shopify://collections/joggers",
+            "subheading": "<strong>JOGGER</strong>",
+            "title": "",
+            "button_label": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#242424",
+            "overlay_opacity": 0
+          }
+        },
+        "image_QAVCaC": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/bag.jpg",
+            "link": "shopify://collections/accessories",
+            "subheading": "<strong>ACCESSORIES</strong>",
+            "title": "",
+            "button_label": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#242424",
+            "overlay_opacity": 0
+          }
+        },
+        "image_jGzyEB": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/slide.jpg",
+            "link": "shopify://collections/slider",
+            "subheading": "<strong>SLIDES</strong>",
+            "title": "",
+            "button_label": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#242424",
+            "overlay_opacity": 0
+          }
+        },
+        "image_BTcEA4": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "link": "",
+            "subheading": "Subheading",
+            "title": "Heading",
+            "button_label": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#242424",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "image_8HPqXT",
+        "image_zA8Qfj",
+        "image_x3bgXX",
+        "image_wBYpmf",
+        "image_AWkhnQ",
+        "image_zyfryF",
+        "image_QAVCaC",
+        "image_jGzyEB",
+        "image_BTcEA4"
+      ],
+      "custom_css": [
+        ".content-grid-item__text {padding: 0px;}",
+        "@media only screen and (max-width: 767px) {.content-grid.content-grid--mobile-grid {display: flex; flex-wrap: wrap; justify-content: center; /* Center items horizontally */ gap: 5px; /* or whatever gap you want */ } .content-grid.content-grid--mobile-grid .content-grid-item {flex: 0 1 calc(50% - 5px); /* Example: 2 items per row */ box-sizing: border-box; }}"
+      ],
+      "name": "t:sections.gallery-slideshow.name",
+      "settings": {
+        "title": "shop by category",
+        "description": "",
+        "image_shape": "square",
+        "layout_style_desktop": "slider",
+        "images_per_row_desktop": 7,
+        "text_position_desktop": "below",
+        "show_on_hover": true,
+        "layout_style_mobile": "grid",
+        "images_per_row_mobile": "2",
+        "text_position_mobile": "bottom_center",
+        "buttons_style": "filled",
+        "override_button_colors": false,
+        "button_background_color": "#e68819",
+        "button_text_color": "#ffffff",
+        "hover_navigation_desktop": "left-and-right",
+        "section_width": "content",
+        "remove_spacing": false,
+        "section_padding_top": 30,
+        "section_padding_bottom": 30,
+        "colors": "white"
+      }
+    },
+    "slideshow_hhkwyg": {
+      "type": "slideshow",
+      "blocks": {
+        "image_gmfEDa": {
+          "type": "image",
+          "settings": {
+            "title": "Make a great \nfirst impression",
+            "text": "Add images and text to give focus to your chosen product, collection, or blog post.",
+            "first_button_label": "Shop now",
+            "first_button_link": "",
+            "second_button_label": "Learn more",
+            "second_button_link": "",
+            "buttons_style": "filled",
+            "override_button_colors": false,
+            "button-background": "#e68819",
+            "button-text": "#ffffff",
+            "image": "shopify://shop_images/bannerF.jpg",
+            "desktop-caption-heading-size": 60,
+            "desktop-caption-body-text-size": 24,
+            "text_position": "center_left",
+            "mobile_image": "shopify://shop_images/mobile_size_750_x_563_px.png",
+            "mobile-caption-heading-size": 36,
+            "mobile-caption-body-text-size": 16,
+            "mobile_text_position": "center_left",
+            "image_overlay": "#242424",
+            "image_overlay_opacity": 0,
+            "caption-text": "#ffffff"
+          }
+        },
+        "image_7NqjWB": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "title": "Make a great \nfirst impression",
+            "text": "Add images and text to give focus to your chosen product, collection, or blog post.",
+            "first_button_label": "Shop now",
+            "first_button_link": "",
+            "second_button_label": "Learn more",
+            "second_button_link": "",
+            "buttons_style": "filled",
+            "override_button_colors": false,
+            "button-background": "#e68819",
+            "button-text": "#ffffff",
+            "desktop-caption-heading-size": 60,
+            "desktop-caption-body-text-size": 24,
+            "text_position": "center_left",
+            "mobile-caption-heading-size": 36,
+            "mobile-caption-body-text-size": 16,
+            "mobile_text_position": "center_left",
+            "image_overlay": "#242424",
+            "image_overlay_opacity": 0,
+            "caption-text": "#ffffff"
+          }
+        },
+        "image_hF3fJ4": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "title": "Make a great \nfirst impression",
+            "text": "Add images and text to give focus to your chosen product, collection, or blog post.",
+            "first_button_label": "Shop now",
+            "first_button_link": "",
+            "second_button_label": "Learn more",
+            "second_button_link": "",
+            "buttons_style": "filled",
+            "override_button_colors": false,
+            "button-background": "#e68819",
+            "button-text": "#ffffff",
+            "image": "shopify://shop_images/bannerF.jpg",
+            "desktop-caption-heading-size": 60,
+            "desktop-caption-body-text-size": 24,
+            "text_position": "center_left",
+            "mobile-caption-heading-size": 36,
+            "mobile-caption-body-text-size": 16,
+            "mobile_text_position": "center_left",
+            "image_overlay": "#242424",
+            "image_overlay_opacity": 0,
+            "caption-text": "#ffffff"
+          }
+        },
+        "image_gVdGYR": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "title": "Make a great \nfirst impression",
+            "text": "Add images and text to give focus to your chosen product, collection, or blog post.",
+            "first_button_label": "Shop now",
+            "first_button_link": "",
+            "second_button_label": "Learn more",
+            "second_button_link": "",
+            "buttons_style": "filled",
+            "override_button_colors": false,
+            "button-background": "#e68819",
+            "button-text": "#ffffff",
+            "image": "shopify://shop_images/cta_-_Shop_our_latest_drop.png",
+            "desktop-caption-heading-size": 60,
+            "desktop-caption-body-text-size": 24,
+            "text_position": "center_left",
+            "mobile_image": "shopify://shop_images/Untitled_design_3.png",
+            "mobile-caption-heading-size": 36,
+            "mobile-caption-body-text-size": 16,
+            "mobile_text_position": "center_left",
+            "image_overlay": "#242424",
+            "image_overlay_opacity": 0,
+            "caption-text": "#ffffff"
+          }
+        },
+        "image_fJwCrY": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "title": "Make a great \nfirst impression",
+            "text": "Add images and text to give focus to your chosen product, collection, or blog post",
+            "first_button_label": "Shop now",
+            "first_button_link": "",
+            "second_button_label": "Learn more",
+            "second_button_link": "",
+            "buttons_style": "filled",
+            "override_button_colors": false,
+            "button-background": "#e68819",
+            "button-text": "#ffffff",
+            "desktop-caption-heading-size": 60,
+            "desktop-caption-body-text-size": 24,
+            "text_position": "center_left",
+            "mobile-caption-heading-size": 36,
+            "mobile-caption-body-text-size": 16,
+            "mobile_text_position": "center_left",
+            "image_overlay": "#242424",
+            "image_overlay_opacity": 0,
+            "caption-text": "#ffffff"
+          }
+        },
+        "image_MLpAxB": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "title": "Promote your \ntop earners",
+            "text": "Showcase key products or collections to maximise your profits",
+            "first_button_label": "Shop now",
+            "first_button_link": "",
+            "second_button_label": "Learn more",
+            "second_button_link": "",
+            "buttons_style": "filled",
+            "override_button_colors": false,
+            "button-background": "#e68819",
+            "button-text": "#ffffff",
+            "desktop-caption-heading-size": 60,
+            "desktop-caption-body-text-size": 24,
+            "text_position": "center_left",
+            "mobile-caption-heading-size": 36,
+            "mobile-caption-body-text-size": 16,
+            "mobile_text_position": "center_left",
+            "image_overlay": "#242424",
+            "image_overlay_opacity": 0,
+            "caption-text": "#ffffff"
+          }
+        },
+        "image_jWNNNN": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "title": "",
+            "text": "",
+            "first_button_label": "",
+            "first_button_link": "",
+            "second_button_label": "",
+            "second_button_link": "",
+            "buttons_style": "filled",
+            "override_button_colors": false,
+            "button-background": "#e68819",
+            "button-text": "#ffffff",
+            "image": "shopify://shop_images/Funky-Nation-Banner-01a-Slipper.png",
+            "desktop-caption-heading-size": 60,
+            "desktop-caption-body-text-size": 22,
+            "text_position": "center",
+            "mobile_image": "shopify://shop_images/Funky-Nation-Banner-slipper-mobile.png",
+            "mobile-caption-heading-size": 22,
+            "mobile-caption-body-text-size": 12,
+            "mobile_text_position": "center",
+            "image_overlay": "#242424",
+            "image_overlay_opacity": 0,
+            "caption-text": "#ffffff"
+          }
+        },
+        "image_gDna4B": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "title": "",
+            "text": "",
+            "first_button_label": "",
+            "first_button_link": "",
+            "second_button_label": "",
+            "second_button_link": "",
+            "buttons_style": "filled",
+            "override_button_colors": false,
+            "button-background": "#e68819",
+            "button-text": "#ffffff",
+            "image": "shopify://shop_images/Funky-Nation-Banner-13c.png",
+            "desktop-caption-heading-size": 60,
+            "desktop-caption-body-text-size": 24,
+            "text_position": "center",
+            "mobile_image": "shopify://shop_images/Funky_Nation_Banner_13_mobile_b.png",
+            "mobile-caption-heading-size": 22,
+            "mobile-caption-body-text-size": 12,
+            "mobile_text_position": "center",
+            "image_overlay": "#242424",
+            "image_overlay_opacity": 0,
+            "caption-text": "#ffffff"
+          }
+        },
+        "image_8PbmrL": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "title": "",
+            "text": "",
+            "first_button_label": "",
+            "first_button_link": "",
+            "second_button_label": "",
+            "second_button_link": "",
+            "buttons_style": "filled",
+            "override_button_colors": false,
+            "button-background": "#e68819",
+            "button-text": "#ffffff",
+            "image": "shopify://shop_images/Funky_Nation_Banner_3.jpg",
+            "desktop-caption-heading-size": 60,
+            "desktop-caption-body-text-size": 24,
+            "text_position": "center",
+            "mobile-caption-heading-size": 22,
+            "mobile-caption-body-text-size": 12,
+            "mobile_text_position": "center",
+            "image_overlay": "#242424",
+            "image_overlay_opacity": 0,
+            "caption-text": "#ffffff"
+          }
+        },
+        "image_fLMwJe": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "title": "",
+            "text": "",
+            "first_button_label": "Shop Now",
+            "first_button_link": "shopify://collections/michi",
+            "second_button_label": "",
+            "second_button_link": "",
+            "buttons_style": "filled",
+            "override_button_colors": false,
+            "button-background": "#e68819",
+            "button-text": "#ffffff",
+            "desktop-caption-heading-size": 60,
+            "desktop-caption-body-text-size": 24,
+            "text_position": "center_left",
+            "mobile-caption-heading-size": 36,
+            "mobile-caption-body-text-size": 16,
+            "mobile_text_position": "center_left",
+            "image_overlay": "#242424",
+            "image_overlay_opacity": 0,
+            "caption-text": "#ffffff"
+          }
+        },
+        "image_xMBEaQ": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "title": "",
+            "text": "",
+            "first_button_label": "Shop Now",
+            "first_button_link": "shopify://collections/manduka",
+            "second_button_label": "",
+            "second_button_link": "",
+            "buttons_style": "filled",
+            "override_button_colors": false,
+            "button-background": "#e68819",
+            "button-text": "#ffffff",
+            "desktop-caption-heading-size": 60,
+            "desktop-caption-body-text-size": 24,
+            "text_position": "bottom_left",
+            "mobile-caption-heading-size": 36,
+            "mobile-caption-body-text-size": 16,
+            "mobile_text_position": "bottom",
+            "image_overlay": "#242424",
+            "image_overlay_opacity": 0,
+            "caption-text": "#ffffff"
+          }
+        },
+        "image_V6gfkb": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "title": "",
+            "text": "",
+            "first_button_label": "Shop Now",
+            "first_button_link": "shopify://collections/squatwolf",
+            "second_button_label": "",
+            "second_button_link": "",
+            "buttons_style": "filled",
+            "override_button_colors": false,
+            "button-background": "#e68819",
+            "button-text": "#ffffff",
+            "desktop-caption-heading-size": 60,
+            "desktop-caption-body-text-size": 24,
+            "text_position": "bottom_left",
+            "mobile-caption-heading-size": 36,
+            "mobile-caption-body-text-size": 16,
+            "mobile_text_position": "bottom",
+            "image_overlay": "#242424",
+            "image_overlay_opacity": 0,
+            "caption-text": "#ffffff"
+          }
+        }
+      },
+      "block_order": [
+        "image_gmfEDa",
+        "image_7NqjWB",
+        "image_hF3fJ4",
+        "image_gVdGYR",
+        "image_fJwCrY",
+        "image_MLpAxB",
+        "image_jWNNNN",
+        "image_gDna4B",
+        "image_8PbmrL",
+        "image_fLMwJe",
+        "image_xMBEaQ",
+        "image_V6gfkb"
+      ],
+      "custom_css": [],
+      "settings": {
+        "slide_transition_delay": 4,
+        "slide_navigation_style": "bars",
+        "section_padding_top": 0,
+        "section_padding_bottom": 20,
+        "desktop_height": "original",
+        "mobile_height": "original"
+      }
+    },
+    "featured_collection_htqPxF": {
+      "type": "featured-collection",
+      "custom_css": [
+        "@media (min-width: 768px) {.product-grid--wrapper {margin-top: -40px; }}",
+        "@media (max-width: 767px) {.product-grid--wrapper {margin-top: -40px; }}"
+      ],
+      "settings": {
+        "title": "Signature Collection",
+        "description": "",
+        "collection": "frontpage",
+        "override_button_colors": false,
+        "button_background_color": "#e68819",
+        "button_text_color": "#ffffff",
+        "show_view_all": true,
+        "buttons_style": "filled",
+        "section_padding_top": 35,
+        "section_padding_bottom": 35,
+        "layout_style": "grid",
+        "products_to_show": 10,
+        "grid-desktop": 4,
+        "grid-mobile": "2",
+        "colors": "white"
+      }
+    },
+    "scrolling_banner_aaMLFC": {
+      "type": "scrolling-banner",
+      "blocks": {
+        "text_mLFmKq": {
+          "type": "text",
+          "settings": {
+            "text": "Welcome to Funky Nation",
+            "font": "heading",
+            "style": "outline",
+            "font_size_desktop": 20,
+            "font_size_mobile": 12
+          }
+        },
+        "image_XHRp9J": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Funky_Nation_-_Black_Logo.png",
+            "height_desktop": 28,
+            "height_mobile": 16,
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "text_mLFmKq",
+        "image_XHRp9J"
+      ],
+      "disabled": true,
+      "name": "t:sections.scrolling-banner.name",
+      "settings": {
+        "title": "",
+        "description": "",
+        "show_fade": false,
+        "borders": false,
+        "animation_direction": "normal",
+        "animation_speed": 60,
+        "section_padding_top": 0,
+        "section_padding_bottom": 0,
+        "space_between_blocks_desktop": 20,
+        "space_between_blocks_mobile": 5,
+        "rotate": "0",
+        "color_scheme": "white"
+      }
+    },
+    "gallery_slideshow_UFULeC": {
+      "type": "gallery-slideshow",
+      "blocks": {
+        "image_PMQyqj": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/20250819_img01.jpg",
+            "link": "shopify://collections/t-shirt",
+            "subheading": "",
+            "title": "<strong>FUNK STREET TEES</strong>",
+            "button_label": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#242424",
+            "overlay_opacity": 0
+          }
+        },
+        "image_aRhfWk": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/20250819_img03.jpg",
+            "link": "shopify://collections/muscle-tank",
+            "subheading": "",
+            "title": "<strong>GOOD FOR PRE & POST WORKOUT</strong>",
+            "button_label": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#242424",
+            "overlay_opacity": 0
+          }
+        },
+        "image_We6PWV": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/20250819_img04.jpg",
+            "link": "shopify://collections/muscle-tank",
+            "subheading": "",
+            "title": "<strong>TANKS FOR MUSCLE WORKOUT</strong>",
+            "button_label": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#242424",
+            "overlay_opacity": 0
+          }
+        },
+        "image_FxP6qX": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/20250819_img02.jpg",
+            "link": "shopify://collections/hoodie",
+            "subheading": "",
+            "title": "",
+            "button_label": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#242424",
+            "overlay_opacity": 0
+          }
+        },
+        "image_NBcbpL": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/shorts.jpg",
+            "link": "shopify://collections/shorts",
+            "subheading": "<strong>SHORTS</strong>",
+            "title": "",
+            "button_label": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#242424",
+            "overlay_opacity": 0
+          }
+        },
+        "image_hKnkKt": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/joggers.jpg",
+            "link": "shopify://collections/joggers",
+            "subheading": "<strong>JOGGER</strong>",
+            "title": "",
+            "button_label": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#242424",
+            "overlay_opacity": 0
+          }
+        },
+        "image_nWyFRD": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/bag.jpg",
+            "link": "shopify://collections/accessories",
+            "subheading": "<strong>ACCESSORIES</strong>",
+            "title": "",
+            "button_label": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#242424",
+            "overlay_opacity": 0
+          }
+        },
+        "image_A6yLR8": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/slide.jpg",
+            "link": "shopify://collections/accessories",
+            "subheading": "<strong>SLIDES</strong>",
+            "title": "",
+            "button_label": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#242424",
+            "overlay_opacity": 0
+          }
+        },
+        "image_8TkgPW": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "link": "",
+            "subheading": "Subheading",
+            "title": "Heading",
+            "button_label": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#242424",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "image_PMQyqj",
+        "image_aRhfWk",
+        "image_We6PWV",
+        "image_FxP6qX",
+        "image_NBcbpL",
+        "image_hKnkKt",
+        "image_nWyFRD",
+        "image_A6yLR8",
+        "image_8TkgPW"
+      ],
+      "disabled": true,
+      "custom_css": [
+        ".content-grid-item__heading {font-size: 38px;}",
+        "@media (max-width: 767px) {.content-grid-item__heading {font-size: 10px; }}"
+      ],
+      "name": "t:sections.gallery-slideshow.name",
+      "settings": {
+        "title": "",
+        "description": "",
+        "image_shape": "tall",
+        "layout_style_desktop": "slider",
+        "images_per_row_desktop": 4,
+        "text_position_desktop": "center",
+        "show_on_hover": false,
+        "layout_style_mobile": "slider",
+        "images_per_row_mobile": "5",
+        "text_position_mobile": "center",
+        "buttons_style": "filled",
+        "override_button_colors": false,
+        "button_background_color": "#e68819",
+        "button_text_color": "#ffffff",
+        "hover_navigation_desktop": "left-and-right",
+        "section_width": "content",
+        "remove_spacing": false,
+        "section_padding_top": 30,
+        "section_padding_bottom": 30,
+        "colors": "white"
+      }
+    },
+    "rich_text_bW98kF": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_6PyrKK": {
+          "type": "heading",
+          "settings": {
+            "heading": "what the nation says",
+            "heading--text-size": 40,
+            "heading_bottom_spacing": 0
+          }
+        }
+      },
+      "block_order": [
+        "heading_6PyrKK"
+      ],
+      "name": "t:sections.text--rich-text.presets.name",
+      "settings": {
+        "section_width": "narrow",
+        "text_alignment_desktop": "center",
+        "text_alignment_mobile": "center",
+        "section_padding_top": 45,
+        "section_padding_bottom": 0,
+        "colors": "white"
+      }
+    },
+    "17513722526f8fd3c3": {
+      "type": "apps",
+      "blocks": {
+        "loox_reviews_loox_agg_section_LexqVk": {
+          "type": "shopify://apps/loox-reviews/blocks/loox-agg-section/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
+          "settings": {
+            "reviews_to_display": "",
+            "default_tab": "automatic",
+            "only_photos": true,
+            "hide_thumbnails": true,
+            "product_handle": "",
+            "aggregated": true,
+            "data-limit": 20,
+            "maxwidth": 1080,
+            "is_sample": true
+          }
+        },
+        "loox_reviews_loox_card_carousel_section_N6j3pK": {
+          "type": "shopify://apps/loox-reviews/blocks/loox-card-carousel-section/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
+          "disabled": true,
+          "settings": {
+            "maxWidth": 1100,
+            "borderRadius": 8,
+            "itemsPerView": 4,
+            "mobileItemsPerView": 3,
+            "maxNumberOfCharacters": 100,
+            "imageRatio": "0.72",
+            "reviewerNameColor": "#000000",
+            "textColor": "#000000",
+            "itemBackgroundColor": "#ffffff",
+            "starsColor": "",
+            "starsBackgroundColor": "#ffffff",
+            "arrows_backgroundColor": "#ffffff",
+            "arrows_iconColor": "#9a9a9a",
+            "shadow": "offset-dark",
+            "border_active": false,
+            "border_width": 2,
+            "border_color": "#000000",
+            "productIds": ""
+          }
+        }
+      },
+      "block_order": [
+        "loox_reviews_loox_agg_section_LexqVk",
+        "loox_reviews_loox_card_carousel_section_N6j3pK"
+      ],
+      "settings": {
+        "section_padding_top": 0,
+        "section_padding_bottom": 0,
+        "include_margins": true
+      }
+    },
+    "image_with_text_overlay_LyH8yg": {
+      "type": "image-with-text-overlay",
+      "disabled": true,
+      "settings": {
+        "height_desktop": "original",
+        "text_position_desktop": "center",
+        "text_alignment_desktop": "center",
+        "caption_width_desktop": 50,
+        "height_mobile": "original",
+        "text_position_mobile": "center",
+        "text_alignment_mobile": "center",
+        "section_link": "",
+        "animation_style": "none",
+        "section_margin_top": 0,
+        "section_margin_bottom": 30,
+        "text_color": "#ffffff",
+        "caption_bg_color": "rgba(0,0,0,0)",
+        "image_overlay_color": "#242424",
+        "image_overlay_opacity": 0
+      }
+    },
+    "rich_text_tCCm99": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_r7g3DV": {
+          "type": "heading",
+          "settings": {
+            "heading": "CUSTOMER REVIEWS",
+            "heading--text-size": 30,
+            "heading_bottom_spacing": 20
+          }
+        },
+        "richtext_CLdAcz": {
+          "type": "richtext",
+          "settings": {
+            "text": "",
+            "text_size": 14,
+            "text_bottom_spacing": 20
+          }
+        }
+      },
+      "block_order": [
+        "heading_r7g3DV",
+        "richtext_CLdAcz"
+      ],
+      "disabled": true,
+      "name": "t:sections.text--rich-text.presets.name",
+      "settings": {
+        "section_width": "narrow",
+        "text_alignment_desktop": "left",
+        "text_alignment_mobile": "center",
+        "section_padding_top": 0,
+        "section_padding_bottom": 30,
+        "colors": "white"
+      }
+    },
+    "17447991775c4732fd": {
+      "type": "apps",
+      "blocks": {
+        "trustshop_reviews_all_reviews_4QRXTW": {
+          "type": "shopify://apps/trustshop-reviews/blocks/all-reviews/18b0c4cc-5411-4b6e-922d-34fdc2f30ab9",
+          "settings": {
+            "wrapper_class": ""
+          }
+        }
+      },
+      "block_order": [
+        "trustshop_reviews_all_reviews_4QRXTW"
+      ],
+      "disabled": true,
+      "settings": {
+        "section_padding_top": 0,
+        "section_padding_bottom": 0,
+        "include_margins": true
+      }
+    },
+    "rich_text_Mr3bUn": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_NwtXEh": {
+          "type": "heading",
+          "settings": {
+            "heading": "Our nation",
+            "heading--text-size": 40,
+            "heading_bottom_spacing": 0
+          }
+        }
+      },
+      "block_order": [
+        "heading_NwtXEh"
+      ],
+      "custom_css": [],
+      "settings": {
+        "section_width": "narrow",
+        "text_alignment_desktop": "center",
+        "text_alignment_mobile": "center",
+        "section_padding_top": 0,
+        "section_padding_bottom": 0,
+        "colors": "white"
+      }
+    },
+    "1743680603833a7433": {
+      "type": "apps",
+      "blocks": {
+        "instafeed_app_block_PnrXen": {
+          "type": "shopify://apps/instafeed/blocks/app-block/c447db20-095d-4a10-9725-b5977662c9d5",
+          "settings": {
+            "title": "",
+            "title_color": "",
+            "title_size_v2": 0,
+            "alignment": "center",
+            "instafeed_margin_top": 0,
+            "instafeed_margin_bottom": 18,
+            "instafeed_margin_sides": 0,
+            "show_instagram_link": false,
+            "link_alignment": "left",
+            "link_color": "#000000",
+            "background_color": "",
+            "feed_id": "",
+            "html_area": ""
+          }
+        }
+      },
+      "block_order": [
+        "instafeed_app_block_PnrXen"
+      ],
+      "settings": {
+        "section_padding_top": 0,
+        "section_padding_bottom": 20,
+        "include_margins": true
+      }
+    },
+    "image_with_text_overlay_mNJXWt": {
+      "type": "image-with-text-overlay",
+      "disabled": true,
+      "settings": {
+        "height_desktop": "original",
+        "text_position_desktop": "center",
+        "text_alignment_desktop": "center",
+        "caption_width_desktop": 50,
+        "height_mobile": "original",
+        "text_position_mobile": "center",
+        "text_alignment_mobile": "center",
+        "section_link": "",
+        "animation_style": "none",
+        "section_margin_top": 0,
+        "section_margin_bottom": 0,
+        "text_color": "#ffffff",
+        "caption_bg_color": "rgba(0,0,0,0)",
+        "image_overlay_color": "#242424",
+        "image_overlay_opacity": 0
+      }
+    },
+    "blog_posts_HLD6h3": {
+      "type": "blog-posts",
+      "blocks": {
+        "blog_CfgMPb": {
+          "type": "blog",
+          "settings": {
+            "blog": "news"
+          }
+        }
+      },
+      "block_order": [
+        "blog_CfgMPb"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "Health Tips",
+        "description": "",
+        "blog_show_date": true,
+        "post_limit": 3,
+        "section_padding_top": 20,
+        "section_padding_bottom": 5,
+        "colors": "white"
+      }
+    },
+    "shop_the_look_CTAxMU": {
+      "type": "shop-the-look",
+      "blocks": {
+        "look_7D6Rqp": {
+          "type": "look",
+          "settings": {
+            "hotspot_color": "#ffffff",
+            "product_1": "aerial-legging",
+            "hotspot_horizontal_position_1": 48,
+            "hotspot_vertical_position_1": 39,
+            "product_2": "",
+            "hotspot_horizontal_position_2": 40,
+            "hotspot_vertical_position_2": 65,
+            "product_3": "",
+            "hotspot_horizontal_position_3": 75,
+            "hotspot_vertical_position_3": 50,
+            "product_4": "",
+            "hotspot_horizontal_position_4": 75,
+            "hotspot_vertical_position_4": 75
+          }
+        },
+        "look_gp7y6m": {
+          "type": "look",
+          "settings": {
+            "hotspot_color": "#ffffff",
+            "product_1": "",
+            "hotspot_horizontal_position_1": 25,
+            "hotspot_vertical_position_1": 40,
+            "product_2": "",
+            "hotspot_horizontal_position_2": 60,
+            "hotspot_vertical_position_2": 30,
+            "product_3": "",
+            "hotspot_horizontal_position_3": 75,
+            "hotspot_vertical_position_3": 60,
+            "product_4": "",
+            "hotspot_horizontal_position_4": 75,
+            "hotspot_vertical_position_4": 75
+          }
+        }
+      },
+      "block_order": [
+        "look_7D6Rqp",
+        "look_gp7y6m"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "Shop the look",
+        "description": "",
+        "image_aspect_ratio": "1 / 1",
+        "section_padding_top": 60,
+        "section_padding_bottom": 60,
+        "colors": "white",
+        "override_button_colors": false,
+        "button_background_color": "#e68819",
+        "button_text_color": "#ffffff"
+      }
+    },
+    "testimonials_Gtk9iC": {
+      "type": "testimonials",
+      "blocks": {
+        "text_3GCwwX": {
+          "type": "text",
+          "settings": {
+            "testimonial_text": "<p>\"<em>I love that Motiv8 offers stylish and comfortable modest activewear. I feel confident working out without compromising my values!</em>\"</p>",
+            "customer_name": "Fatima A., Abu Dhabi",
+            "link": "",
+            "stars": 0
+          }
+        },
+        "text_FJjyVX": {
+          "type": "text",
+          "settings": {
+            "testimonial_text": "<p>\"<em>Finally, a store that understands women's activewear needs! The fit and quality are amazing—I wear my Michi leggings everywhere!</em>\"</p>",
+            "customer_name": "Sarah K., Dubai",
+            "link": "",
+            "stars": 0
+          }
+        },
+        "text_PFafmk": {
+          "type": "text",
+          "settings": {
+            "testimonial_text": "<p>\"The supplements I bought from Motiv8 have become a game-changer for my fitness journey. It’s so convenient to have everything I need in one place!\"</p>",
+            "customer_name": "Leila H., Sharjah",
+            "link": "",
+            "stars": 0
+          }
+        },
+        "text_TdFbzz": {
+          "type": "text",
+          "settings": {
+            "testimonial_text": "",
+            "customer_name": "",
+            "link": "",
+            "stars": 0
+          }
+        }
+      },
+      "block_order": [
+        "text_3GCwwX",
+        "text_FJjyVX",
+        "text_PFafmk",
+        "text_TdFbzz"
+      ],
+      "disabled": true,
+      "settings": {
+        "circle_images": true,
+        "title": "Testimonials",
+        "description": "",
+        "section_padding_top": 60,
+        "section_padding_bottom": 60,
+        "colors": "white"
+      }
+    },
+    "template_product_info_columns_abJHiJ": {
+      "type": "template--product--info-columns",
+      "blocks": {
+        "text_fxeAXk": {
+          "type": "text",
+          "settings": {
+            "heading": "",
+            "text": "<p>\"<em>I love that Motiv8 offers stylish and comfortable modest activewear. I feel confident working out without compromising my values!</em>\"<br/><br/>- <strong>Fatima A., Abu Dhabi</strong></p>",
+            "button_link": "",
+            "button_text": ""
+          }
+        },
+        "text_pqzATW": {
+          "type": "text",
+          "settings": {
+            "heading": "",
+            "text": "<p><em>\"Finally, a store that understands women's activewear needs! The fit and quality are amazing—I wear my Michi leggings everywhere!\"<br/><br/></em><strong>Sarah K., Dubai</strong></p>",
+            "button_link": "",
+            "button_text": ""
+          }
+        },
+        "text_MnmcBm": {
+          "type": "text",
+          "settings": {
+            "heading": "",
+            "text": "<p>\"The supplements I bought from Motiv8 have become a game-changer for my fitness journey. It’s so convenient to have everything I need in one place!\"<br/><br/><strong>Leila H., Sharjah</strong></p>",
+            "button_link": "",
+            "button_text": ""
+          }
+        },
+        "text_Ygqa3f": {
+          "type": "text",
+          "settings": {
+            "heading": "",
+            "text": "<p><em>\"Shopping at Motiv8 was a pleasure! The staff were so helpful, and the products exceeded my expectations. I’ll definitely be back.\"<br/><br/></em><strong>Noura M., Abu Dhabi</strong></p>",
+            "button_link": "",
+            "button_text": ""
+          }
+        },
+        "text_W46cCH": {
+          "type": "text",
+          "settings": {
+            "heading": "",
+            "text": "<p><em>\"The website is easy to navigate, and I got my order delivered in just two days! Amazing service and great quality products.\"<br/><br/></em><strong>Reem D., Dubai</strong></p>",
+            "button_link": "",
+            "button_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "text_fxeAXk",
+        "text_pqzATW",
+        "text_MnmcBm",
+        "text_Ygqa3f",
+        "text_W46cCH"
+      ],
+      "disabled": true,
+      "custom_css": [
+        ".section-title {font-size: 23px !important;}"
+      ],
+      "settings": {
+        "title": "Testimonials",
+        "description": "",
+        "buttons_style": "underlined",
+        "override_button_colors": false,
+        "button_background_color": "#e68819",
+        "button_text_color": "#ffffff",
+        "maximum_width": 500,
+        "columns_per_row": 3,
+        "text_alignment": "center",
+        "vertical_alignment": "top",
+        "text_alignment_mobile": "center",
+        "hover_navigation_desktop": "left-and-right",
+        "section_width": "full",
+        "section_padding_top": 60,
+        "section_padding_bottom": 60,
+        "colors": "white"
+      }
+    },
+    "1738932582af198ef1": {
+      "type": "apps",
+      "disabled": true,
+      "settings": {
+        "section_padding_top": 0,
+        "section_padding_bottom": 50,
+        "include_margins": true
+      }
+    }
+  },
+  "order": [
+    "video_944DTP",
+    "slideshow_cEzUF4",
+    "scrolling_banner_4zy74H",
+    "image_with_text_overlay_z4aTEb",
+    "17515398416e4c2d51",
+    "gallery_slideshow_ptJYiz",
+    "gallery_slideshow_nmEYBf",
+    "gallery_slideshow_iHE3wV",
+    "slideshow_hhkwyg",
+    "featured_collection_htqPxF",
+    "scrolling_banner_aaMLFC",
+    "gallery_slideshow_UFULeC",
+    "rich_text_bW98kF",
+    "17513722526f8fd3c3",
+    "image_with_text_overlay_LyH8yg",
+    "rich_text_tCCm99",
+    "17447991775c4732fd",
+    "rich_text_Mr3bUn",
+    "1743680603833a7433",
+    "image_with_text_overlay_mNJXWt",
+    "blog_posts_HLD6h3",
+    "shop_the_look_CTAxMU",
+    "testimonials_Gtk9iC",
+    "template_product_info_columns_abJHiJ",
+    "1738932582af198ef1"
+  ]
+}

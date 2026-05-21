@@ -1,0 +1,264 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "slideshow_aRQL4A": {
+      "type": "slideshow",
+      "blocks": {
+        "image_wB7hX3": {
+          "type": "image",
+          "settings": {
+            "title": "",
+            "text": "",
+            "first_button_label": "",
+            "first_button_link": "",
+            "second_button_label": "Learn more",
+            "second_button_link": "",
+            "buttons_style": "filled",
+            "override_button_colors": false,
+            "button-background": "#e68819",
+            "button-text": "#ffffff",
+            "desktop-caption-heading-size": 60,
+            "desktop-caption-body-text-size": 24,
+            "text_position": "center_left",
+            "mobile-caption-heading-size": 36,
+            "mobile-caption-body-text-size": 16,
+            "mobile_text_position": "center_left",
+            "image_overlay": "#242424",
+            "image_overlay_opacity": 0,
+            "caption-text": "#ffffff"
+          }
+        }
+      },
+      "block_order": [
+        "image_wB7hX3"
+      ],
+      "disabled": true,
+      "settings": {
+        "slide_transition_delay": 7,
+        "slide_navigation_style": "bars",
+        "section_padding_top": 0,
+        "section_padding_bottom": 0,
+        "desktop_height": "full_screen",
+        "mobile_height": "extra_large"
+      }
+    },
+    "main": {
+      "type": "template--page",
+      "disabled": true,
+      "settings": {
+        "page_title_enabled": true,
+        "page_width": "narrow"
+      }
+    },
+    "gallery_slideshow_hAKgkB": {
+      "type": "gallery-slideshow",
+      "blocks": {
+        "image_rTtXaQ": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/PDB_75f5b1cb-9f65-46e6-86c7-a199819a4000.png",
+            "link": "shopify://collections/port-de-bras",
+            "subheading": "<strong>Port De Bra</strong>",
+            "title": "",
+            "button_label": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#242424",
+            "overlay_opacity": 0
+          }
+        },
+        "image_AEgBQH": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/silvertraq_brand_img_opt.png",
+            "link": "shopify://collections/silvertraq",
+            "subheading": "<strong>Silvertraq</strong>",
+            "title": "",
+            "button_label": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#242424",
+            "overlay_opacity": 0
+          }
+        },
+        "image_hfcrWC": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Michi_10897ddb-9a07-4ce6-9653-a28d63f35128.jpg",
+            "link": "shopify://collections/michi",
+            "subheading": "<strong>Michi</strong>",
+            "title": "",
+            "button_label": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#242424",
+            "overlay_opacity": 0
+          }
+        },
+        "image_PYUEtr": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Sq.jpg",
+            "link": "shopify://collections/squatwolf",
+            "subheading": "<strong>SquatWolf</strong>",
+            "title": "",
+            "button_label": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#242424",
+            "overlay_opacity": 0
+          }
+        },
+        "image_VbUAwT": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Yoga_Democracy.webp",
+            "link": "shopify://collections/yoga-democracy",
+            "subheading": "<strong>Yoga Democracy</strong>",
+            "title": "",
+            "button_label": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#242424",
+            "overlay_opacity": 0
+          }
+        },
+        "image_cDKYpJ": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Dignitii_38149538-1fb1-49f6-930b-e8df5ae9a9dd.png",
+            "link": "shopify://collections/dignitii",
+            "subheading": "<strong>Dignitii</strong>",
+            "title": "",
+            "button_label": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#242424",
+            "overlay_opacity": 0
+          }
+        },
+        "image_kRaMBB": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Bala_31ff3d45-e78c-4c81-89b2-bf717bf32268.png",
+            "link": "shopify://collections/bala",
+            "subheading": "<strong>Bala</strong>",
+            "title": "",
+            "button_label": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#242424",
+            "overlay_opacity": 0
+          }
+        },
+        "image_rYYa7z": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Manduka_b05159c3-0423-4452-a151-f6762ac84389.png",
+            "link": "shopify://collections/manduka",
+            "subheading": "<strong>Manduka</strong>",
+            "title": "",
+            "button_label": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#242424",
+            "overlay_opacity": 0
+          }
+        },
+        "image_tHkkyL": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Women_s_Best.png",
+            "link": "shopify://collections/womens-best",
+            "subheading": "<strong>Women's Best</strong>",
+            "title": "",
+            "button_label": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#242424",
+            "overlay_opacity": 0
+          }
+        },
+        "image_NMHndi": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Shokz.png",
+            "link": "shopify://collections/shokz",
+            "subheading": "<strong>Shokz</strong>",
+            "title": "",
+            "button_label": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#242424",
+            "overlay_opacity": 0
+          }
+        },
+        "image_XtTRaj": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Garmin.png",
+            "link": "shopify://collections/garmin",
+            "subheading": "<strong>Garmin</strong>",
+            "title": "",
+            "button_label": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#242424",
+            "overlay_opacity": 0
+          }
+        },
+        "image_iKGp7h": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Ringo.png",
+            "link": "shopify://collections/ringo",
+            "subheading": "<strong>Ringo</strong>",
+            "title": "",
+            "button_label": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#242424",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "image_rTtXaQ",
+        "image_AEgBQH",
+        "image_hfcrWC",
+        "image_PYUEtr",
+        "image_VbUAwT",
+        "image_cDKYpJ",
+        "image_kRaMBB",
+        "image_rYYa7z",
+        "image_tHkkyL",
+        "image_NMHndi",
+        "image_XtTRaj",
+        "image_iKGp7h"
+      ],
+      "settings": {
+        "title": "Partner Brands",
+        "description": "",
+        "image_shape": "natural",
+        "layout_style_desktop": "grid",
+        "images_per_row_desktop": 4,
+        "text_position_desktop": "below",
+        "show_on_hover": false,
+        "layout_style_mobile": "slider",
+        "images_per_row_mobile": "1",
+        "text_position_mobile": "bottom_left",
+        "buttons_style": "filled",
+        "override_button_colors": false,
+        "button_background_color": "#e68819",
+        "button_text_color": "#ffffff",
+        "hover_navigation_desktop": "left-and-right",
+        "section_width": "content",
+        "remove_spacing": false,
+        "section_padding_top": 60,
+        "section_padding_bottom": 60,
+        "colors": "white"
+      }
+    }
+  },
+  "order": [
+    "slideshow_aRQL4A",
+    "main",
+    "gallery_slideshow_hAKgkB"
+  ]
+}

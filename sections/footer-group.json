@@ -1,0 +1,90 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "type": "footer",
+  "name": "Footer",
+  "sections": {
+    "footer-main": {
+      "type": "footer-main",
+      "blocks": {
+        "social": {
+          "type": "social",
+          "settings": {
+            "social_title": "Join our Nation"
+          }
+        },
+        "menu": {
+          "type": "menu",
+          "settings": {
+            "menu_title": "HELP",
+            "footer_linklist": "help"
+          }
+        },
+        "menu_i4T6La": {
+          "type": "menu",
+          "disabled": true,
+          "settings": {
+            "menu_title": "Our Stores",
+            "footer_linklist": ""
+          }
+        },
+        "5c637888-418b-4cc8-baea-a83083df2e8c": {
+          "type": "menu",
+          "settings": {
+            "menu_title": "CUSTOMER CARE",
+            "footer_linklist": "footer"
+          }
+        },
+        "text_tYiPHd": {
+          "type": "text",
+          "settings": {
+            "title": "Funky Nation Global",
+            "richtext": "<p>IND</p><p>UAE</p>"
+          }
+        }
+      },
+      "block_order": [
+        "social",
+        "menu",
+        "menu_i4T6La",
+        "5c637888-418b-4cc8-baea-a83083df2e8c",
+        "text_tYiPHd"
+      ],
+      "custom_css": [
+        "footer {align-items: center; /* height: 200px; */ margin-top: 0px;}",
+        ".h3.footer-header {font-weight: bold;}",
+        "@media screen and (max-width: 768px) {footer {height: 700px; /* margin-top: -30px; */ } social-media-footer {align-items: center; }}"
+      ],
+      "settings": {
+        "alignment": "left",
+        "heading_font_size": 16,
+        "color_scheme": "dark"
+      }
+    },
+    "footer-bottom": {
+      "type": "footer-bottom",
+      "custom_css": [
+        "@media only screen and (min-width: 768px) {.footer-bottom--inner {padding-top: 10px; }}"
+      ],
+      "settings": {
+        "show_methods_of_payment": false,
+        "center_content_on_desktop": true,
+        "footer_text": "",
+        "show_currency_selector": false,
+        "show_locale_selector": false,
+        "color_scheme": "dark"
+      }
+    }
+  },
+  "order": [
+    "footer-main",
+    "footer-bottom"
+  ]
+}

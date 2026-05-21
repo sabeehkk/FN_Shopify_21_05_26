@@ -1,0 +1,39 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "premium_about_us": {
+      "type": "premium-about-us",
+      "settings": {
+        "background_color": "#101112",
+        "surface_color": "#f7f1e6",
+        "text_color": "#ffffff",
+        "muted_text_color": "#565656",
+        "accent_color": "#cdff4b",
+        "secondary_accent_color": "#cf5f3e",
+        "eyebrow": "Built for the work",
+        "heading": "About Funky Nation",
+        "hero_text": "<p>We create performance-driven essentials for athletes, lifters, runners, and everyday movers who want gear that looks sharp and keeps up with the session.</p>",
+        "primary_button_label": "Shop collection",
+        "primary_button_link": "",
+        "secondary_button_label": "Our story",
+        "secondary_button_link": "",
+        "mission_eyebrow": "Our mission",
+        "mission_heading": "Make every rep feel intentional.",
+        "mission_text": "<p>We build apparel that helps you train harder, move freely, and show up with confidence. From the first sketch to the final fit check, our focus is comfort, function, and a premium finish.</p>",
+        "vision_heading": "Our vision",
+        "vision_text": "<p>To become a trusted fitness lifestyle brand for people who want discipline, style, and identity in the same wardrobe.</p>"
+      }
+    }
+  },
+  "order": [
+    "premium_about_us"
+  ]
+}

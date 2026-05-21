@@ -1,0 +1,151 @@
+{{ 'template-page.min.css' | asset_url | stylesheet_tag: preload: true }}
+
+<div class="wrapper-spacing--v--template wrapper-spacing--h">
+  <div class="width--content">
+    <div class="grid">
+
+      <div class="rte text-link-animated grid__item grid__item--page">
+        <!-- Careers Section -->
+        <div class="careers">
+          <h1 class="careers-title">Careers at Funky Nation</h1>
+          <p class="careers-text">
+            At Funky Nation, we believe in building a culture where creativity, passion, and innovation thrive.
+            Join our growing team and be a part of shaping the future of streetwear fashion.
+          </p>
+
+          <div class="vacancies">
+            <h1 class="vacancies-subtitle">Current Openings</h1>
+            <p>We are always on the lookout for talented, driven, and passionate professionals to join our team. Explore our
+              latest opportunities below:</p> <br>
+            <ul class="job-list">
+              <li>
+                <span>FNJ1101 - Shopify Ecommerce Web Developer</span>
+                <a href="https://www.naukri.com/job-listings-Shopify-Ecommerce-Web-Developer-Activewear-Brand--Stylenza-Urbantraq-Bengaluru-4-to-5-years-220825021358"
+                  class="apply-btn">Apply Now</a>
+              </li>
+              <li>
+                <span>FNJ1102 - Digital Media Marketing Executive (Strategic)</span>
+                <a href="https://www.naukri.com/job-listings-Digital-Media-Marketing-Executive-Strategic--Funky-Nation-Bengaluru-4-to-5-years-210825029553"
+                  class="apply-btn">Apply Now</a>
+              </li>
+              <li>
+                <span>FNJ1103 : Online Marketing Strategy Specialist</span>
+                <a href="https://www.naukri.com/job-listings-Online-Marketing-Strategy-Specialist-Stylenza-Urbantraq-Bengaluru-3-to-5-years-210825027312"
+                  class="apply-btn">Apply Now</a>
+              </li>
+              <li>
+                <span>FNJ1104 : Creative Graphic Designer – Activewear & Gymwear Fashion</span>
+                <a href="https://in.indeed.com/viewjob?jk=5e2327f11a591d34&from=shareddesktop_copy" class="apply-btn">Apply Now</a>
+              </li>
+              <li>
+                <span>FNJ1105 : Online Garments Store - Ecommerce operations</span>
+                <a href="https://in.indeed.com/viewjob?jk=d0947d0f0a5f5a85&from=shareddesktop_copy" class="apply-btn">Apply Now</a>
+              </li>
+              <li>
+                <span>FNJ1106 : Assistant Finance Manager</span>
+                <a href="https://www.naukri.com/job-listings-Assistant-Finance-Manager-Stylenza-Urbantraq-Bengaluru-3-to-5-years-280825016396" class="apply-btn">Apply Now</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<style>
+  /* Careers Section */
+  .careers {
+    margin-top: 40px;
+    text-align: center;
+    width: 100%;
+  }
+
+  .careers-title {
+    font-size: 42px;
+    font-family: "BAD GRUNGE", sans-serif !important;
+    margin-bottom: 20px;
+    color: #000000;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+  }
+
+  .careers-text {
+    font-size: 18px;
+    font-family: "Roboto Condensed", sans-serif;
+    margin-bottom: 20px;
+    color: #000000;
+    line-height: 1.6;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .vacancies {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: left;
+    font-family: "Roboto Condensed", sans-serif;
+  }
+
+  .vacancies-subtitle {
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 15px;
+    color: #000000;
+    font-family: "Roboto Condensed", sans-serif;
+    text-align: center;
+  }
+
+  .job-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .job-list li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #ffffff;
+    padding: 12px 18px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 16px;
+    color: #000000;
+    border: 1px solid #333;
+  }
+
+  .job-list li span {
+    display: block;
+  }
+
+  .apply-btn {
+    background: #029f24 !important;
+    color: #fff !important;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 8px 14px;
+    border-radius: 6px;
+    transition: all 0.3s ease;
+    white-space: nowrap;
+    border: none;
+    display: inline-block;
+  }
+
+  .apply-btn:hover {
+    background: #ffffff !important;
+    color: #000000 !important;
+    border: 1px solid #029f24 !important;
+  }
+</style>
+
+{% schema %}
+{
+  "name": "Careers Page",
+  "settings": []
+}
+{% endschema %}
