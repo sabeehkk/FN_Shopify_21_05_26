@@ -1,22 +1,27 @@
 {{ 'section-accordion.min.css' | asset_url | stylesheet_tag }}
 
 <section
-  class="wrapper-spacing--v wrapper-spacing--h color-scheme--{{ section.settings.colors }}"
+  class="faq-section wrapper-spacing--v wrapper-spacing--h color-scheme--{{ section.settings.colors }}"
   data-wetheme-section-type="accordion--faq"
   data-wetheme-section-id="{{ section.id }}"
   style="--padding-section-top: {{ section.settings.section_padding_top }}px; --padding-section-bottom: {{ section.settings.section_padding_bottom }}px;"
 >
-  {% comment %} Section title and description {% endcomment %}
-  {% render 'dynamic-section-header' with section_title: section.settings.title, section_description: section.settings.description %}
+  <div class="faq-section__inner">
+    <div class="faq-section__intro">
+      <span class="faq-section__eyebrow">FAQ</span>
+      {% comment %} Section title and description {% endcomment %}
+      {% render 'dynamic-section-header' with section_title: section.settings.title, section_description: section.settings.description, wrapper_classes: 'faq-section__header', title_classes: 'faq-section__title', description_classes: 'faq-section__description' %}
+    </div>
 
-  <div class="width--narrow">
-    {% for block in section.blocks %}
-      {% unless block.settings.text == blank and block.settings.question == blank %}
-        <div class="accordion-content" {{ block.shopify_attributes }}>
-          {% render 'collapsible-tab', icon: 'none', custom_icon: false, heading: block.settings.question, content: block.settings.text, open_close_icon: section.settings.faq_icon, open_by_default: false %}
-        </div>
-      {% endunless %}
-    {% endfor %}
+    <div class="faq-section__panel width--narrow">
+      {% for block in section.blocks %}
+        {% unless block.settings.text == blank and block.settings.question == blank %}
+          <div class="accordion-content" style="--faq-item-index: {{ forloop.index0 }};" {{ block.shopify_attributes }}>
+            {% render 'collapsible-tab', icon: 'none', custom_icon: false, heading: block.settings.question, content: block.settings.text, open_close_icon: section.settings.faq_icon, open_by_default: false %}
+          </div>
+        {% endunless %}
+      {% endfor %}
+    </div>
   </div>
 </section>
 
