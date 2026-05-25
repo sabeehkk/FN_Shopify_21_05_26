@@ -301,6 +301,15 @@
       <!-- begin mobile-nav -->
       <ul class="mobile-nav mobile-nav--main">
         {% assign menu = linklists[section.settings.main_linklist] %}
+        {% liquid
+          assign faq_page = pages['faq']
+          assign faq_url = '/pages/faq'
+          assign has_faq_link = false
+
+          if faq_page != blank
+            assign faq_url = faq_page.url
+          endif
+        %}
         {% for link in menu.links %}
           {% liquid
             assign link-title = link.title | strip | downcase
@@ -727,6 +736,10 @@
             </li>
           {% endif %}
 
+          {% if link-title == 'faq' or link-title == 'faqs' %}
+            {% assign has_faq_link = true %}
+          {% endif %}
+
           {% if link-title == 'popular' %}
             {% liquid
               assign about_us_page = pages['about-us']
@@ -743,6 +756,12 @@
             </li>
           {% endif %}
         {% endfor %}
+
+        {% unless has_faq_link %}
+          <li class="mobile-nav__item top-level{% if request.path == faq_url %} mobile-nav__item--active{% endif %}">
+            <a href="{{ faq_url }}" class="mobile-nav__link">FAQ</a>
+          </li>
+        {% endunless %}
       </ul>
 
       <div class="mobile-nav--footer">

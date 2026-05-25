@@ -18,13 +18,16 @@ class CollapsibleButton extends HTMLElement {
 
       // Set initial height based on state
       this.parentElement.classList.contains('open') ? this.nextElementSibling.style.height = this.contentBlockheight() : this.nextElementSibling.style.height = '0px';
+      this.setAttribute('role', 'button');
+      this.setAttribute('aria-expanded', this.parentElement.classList.contains('open') ? 'true' : 'false');
 
       // Handle click
       this.addEventListener('click', this.toggle);
 
-      // Handle enter key
+      // Handle keyboard activation
       this.addEventListener('keydown', (e) => {
-        if (e.key === 'Enter') {
+        if (e.key === 'Enter' || e.key === ' ') {
+          e.preventDefault();
           this.toggle();
         }
       });
@@ -53,6 +56,7 @@ class CollapsibleButton extends HTMLElement {
   showDetails() {
     this.setTransitionHeight(this.nextElementSibling, false)
     this.parentElement.classList.add('open');
+    this.setAttribute('aria-expanded', 'true');
 
     if (this.collapsibleContent) {
       this.collapsibleContent.addEventListener('transitionend', this.transitionEndHandler.bind(this), {once: true});
@@ -62,6 +66,7 @@ class CollapsibleButton extends HTMLElement {
   hideDetails() {
     this.setTransitionHeight(this.nextElementSibling, true)
     this.parentElement.classList.remove('open');
+    this.setAttribute('aria-expanded', 'false');
 
     if (this.collapsibleContent) {
       this.collapsibleContent.style.overflow = 'hidden';

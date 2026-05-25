@@ -1,5 +1,12 @@
 {% liquid 
   assign menu = linklists[section.settings.main_linklist]
+  assign faq_page = pages['faq']
+  assign faq_url = '/pages/faq'
+  assign has_faq_link = false
+
+  if faq_page != blank
+    assign faq_url = faq_page.url
+  endif
 %}
 
 {% for link in menu.links %}
@@ -136,6 +143,10 @@
     </li>
   {% endif %}
 
+  {% if link-title == 'faq' or link-title == 'faqs' %}
+    {% assign has_faq_link = true %}
+  {% endif %}
+
   {% if link-title == 'popular' %}
     {% liquid
       assign about_us_page = pages['about-us']
@@ -158,6 +169,18 @@
     </li>
   {% endif %}
 {% endfor %}
+
+{% unless has_faq_link %}
+  <li class="first-level-dropdown">
+    <a href="{{ faq_url }}" class="site-nav__link">
+      <div class="site-nav--link-wrapper">
+        <span class="site-nav--link-text animated-underline">
+          FAQ
+        </span>
+      </div>
+    </a>
+  </li>
+{% endunless %}
 
 {% if settings.header-border-color != 'rgba(0,0,0,0)' %}
   {% style %}

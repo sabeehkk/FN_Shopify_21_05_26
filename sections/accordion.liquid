@@ -1,22 +1,70 @@
 {{ 'section-accordion.min.css' | asset_url | stylesheet_tag }}
 
+<style>
+  .accordion-faq .faq-section__title {
+    max-width: 10ch;
+    font-family: var(--header-font-stack);
+    font-weight: var(--header-font-weight);
+    font-style: var(--header-font-style);
+    font-size: clamp(42px, 5.8vw, 78px) !important;
+    line-height: 0.92;
+    letter-spacing: var(--heading-spacing);
+    text-transform: none;
+  }
+
+  .accordion-faq .faq-section__title span {
+    display: block;
+  }
+
+  @media screen and (max-width: 900px) {
+    .accordion-faq .faq-section__title {
+      max-width: 10ch;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+
+  @media screen and (max-width: 560px) {
+    .accordion-faq .faq-section__title {
+      font-size: clamp(38px, 12vw, 56px) !important;
+    }
+  }
+</style>
+
 <section
-  class="wrapper-spacing--v wrapper-spacing--h color-scheme--{{ section.settings.colors }}"
+  class="faq-section wrapper-spacing--v wrapper-spacing--h color-scheme--{{ section.settings.colors }}"
   data-wetheme-section-type="accordion--faq"
   data-wetheme-section-id="{{ section.id }}"
   style="--padding-section-top: {{ section.settings.section_padding_top }}px; --padding-section-bottom: {{ section.settings.section_padding_bottom }}px;"
 >
-  {% comment %} Section title and description {% endcomment %}
-  {% render 'dynamic-section-header' with section_title: section.settings.title, section_description: section.settings.description %}
+  <div class="faq-section__inner">
+    <div class="faq-section__intro">
+      <span class="faq-section__eyebrow">FAQ</span>
+      {% comment %} Section title and description {% endcomment %}
+      <div class="section-title--wrapper faq-section__header">
+        {% if section.settings.title != blank %}
+          <h2 class="section-title text-link-animated faq-section__title">
+            {% assign faq_title = section.settings.title | strip_html | split: ' ' %}
+            {% for title_word in faq_title %}
+              <span>{{ title_word }}</span>
+            {% endfor %}
+          </h2>
+        {% endif %}
+        {% if section.settings.description != blank %}
+          <div class="section-description subdued-text text-link-animated faq-section__description">{{ section.settings.description }}</div>
+        {% endif %}
+      </div>
+    </div>
 
-  <div class="width--narrow">
-    {% for block in section.blocks %}
-      {% unless block.settings.text == blank and block.settings.question == blank %}
-        <div class="accordion-content" {{ block.shopify_attributes }}>
-          {% render 'collapsible-tab', icon: 'none', custom_icon: false, heading: block.settings.question, content: block.settings.text, open_close_icon: section.settings.faq_icon, open_by_default: false %}
-        </div>
-      {% endunless %}
-    {% endfor %}
+    <div class="faq-section__panel width--narrow">
+      {% for block in section.blocks %}
+        {% unless block.settings.text == blank and block.settings.question == blank %}
+          <div class="accordion-content" style="--faq-item-index: {{ forloop.index0 }};" {{ block.shopify_attributes }}>
+            {% render 'collapsible-tab', icon: 'none', custom_icon: false, heading: block.settings.question, content: block.settings.text, open_close_icon: section.settings.faq_icon, open_by_default: false %}
+          </div>
+        {% endunless %}
+      {% endfor %}
+    </div>
   </div>
 </section>
 
