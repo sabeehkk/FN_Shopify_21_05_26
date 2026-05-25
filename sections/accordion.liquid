@@ -1,5 +1,36 @@
 {{ 'section-accordion.min.css' | asset_url | stylesheet_tag }}
 
+<style>
+  .accordion-faq .faq-section__title {
+    max-width: 10ch;
+    font-family: var(--header-font-stack);
+    font-weight: var(--header-font-weight);
+    font-style: var(--header-font-style);
+    font-size: clamp(42px, 5.8vw, 78px) !important;
+    line-height: 0.92;
+    letter-spacing: var(--heading-spacing);
+    text-transform: none;
+  }
+
+  .accordion-faq .faq-section__title span {
+    display: block;
+  }
+
+  @media screen and (max-width: 900px) {
+    .accordion-faq .faq-section__title {
+      max-width: 10ch;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+
+  @media screen and (max-width: 560px) {
+    .accordion-faq .faq-section__title {
+      font-size: clamp(38px, 12vw, 56px) !important;
+    }
+  }
+</style>
+
 <section
   class="faq-section wrapper-spacing--v wrapper-spacing--h color-scheme--{{ section.settings.colors }}"
   data-wetheme-section-type="accordion--faq"
@@ -10,7 +41,19 @@
     <div class="faq-section__intro">
       <span class="faq-section__eyebrow">FAQ</span>
       {% comment %} Section title and description {% endcomment %}
-      {% render 'dynamic-section-header' with section_title: section.settings.title, section_description: section.settings.description, wrapper_classes: 'faq-section__header', title_classes: 'faq-section__title', description_classes: 'faq-section__description' %}
+      <div class="section-title--wrapper faq-section__header">
+        {% if section.settings.title != blank %}
+          <h2 class="section-title text-link-animated faq-section__title">
+            {% assign faq_title = section.settings.title | strip_html | split: ' ' %}
+            {% for title_word in faq_title %}
+              <span>{{ title_word }}</span>
+            {% endfor %}
+          </h2>
+        {% endif %}
+        {% if section.settings.description != blank %}
+          <div class="section-description subdued-text text-link-animated faq-section__description">{{ section.settings.description }}</div>
+        {% endif %}
+      </div>
     </div>
 
     <div class="faq-section__panel width--narrow">
